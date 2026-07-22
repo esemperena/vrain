@@ -11,7 +11,6 @@ updated: 2026-07-22
 order: 4
 ---
 
-# Salud
 
 Viabilidad y beneficios de una dieta vegana bien planificada.
 

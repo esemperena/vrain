@@ -11,7 +11,6 @@ updated: 2026-07-22
 order: 2
 ---
 
-# Ética animal
 
 Por qué los intereses de los animales importan moralmente.
 

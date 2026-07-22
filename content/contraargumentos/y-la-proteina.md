@@ -17,7 +17,6 @@ updated: 2026-07-22
 order: 10
 ---
 
-# «¿Y la proteína?»
 
 > [!question] Objeción
 > No se puede obtener suficiente proteína con una dieta vegana.

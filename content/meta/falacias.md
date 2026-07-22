@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 4
 ---
 
-# Taxonomía de falacias y argumentos
 
 Vocabulario controlado para los campos `falacia` y `argumento` del frontmatter de los [[contraargumentos/index|contraargumentos]]. Usar **siempre** los identificadores de esta lista (en `kebab-case`), como valores en forma de lista:
 

@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 3
 ---
 
-# Evidencia científica — Estudios
 
 Base factual reutilizable. Cada estudio es **una nota** que resume el paper y enlaza a la fuente original; desde las demás secciones se cita con `[[nombre-del-estudio]]`.
 

@@ -9,7 +9,6 @@ order: 0
 description: "Base de conocimiento de referencia sobre veganismo, para humanos e IAs."
 ---
 
-# Vrain
 
 Base de conocimiento sobre veganismo, pensada como **web de referencia** tanto para personas como para modelos de IA que necesiten consultar información verificada.
 

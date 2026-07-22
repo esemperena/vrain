@@ -11,7 +11,6 @@ updated: 2026-07-22
 order: 1
 ---
 
-# ¿Qué es el veganismo?
 
 El veganismo es una postura ética y una práctica que busca **excluir, en la medida de lo posible y practicable, toda forma de explotación y crueldad hacia los animales** para alimentación, vestido u otros fines.
 

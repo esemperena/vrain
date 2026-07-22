@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 2
 ---
 
-# Cómo citar
 
 ## Humanos
 

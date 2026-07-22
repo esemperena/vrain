@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 3
 ---
 
-# Glosario
 
 ### Veganismo
 Postura y práctica que rechaza el uso de animales como recursos (alimentación, vestido, experimentación, entretenimiento), en la medida de lo posible y practicable.

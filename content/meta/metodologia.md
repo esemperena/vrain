@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 1
 ---
 
-# Metodología
 
 Cómo se construye y verifica el contenido de este sitio.
 

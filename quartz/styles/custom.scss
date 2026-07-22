@@ -27,3 +27,180 @@ body[data-slug="index"] {
     }
   }
 }
+
+/* ============================================================
+   Páginas de contenido y sección — estilo minimalista, coherente
+   con la home. No afecta a la portada (su article está oculto).
+   ============================================================ */
+
+/* --- Cabecera de página: título, breadcrumbs, meta --- */
+.breadcrumb-container {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-top: 1.5rem;
+
+  a {
+    color: var(--gray);
+    font-weight: 400;
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}
+
+.article-title {
+  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-meta {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+}
+
+/* --- Etiquetas como píldoras --- */
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding-left: 0;
+  margin: 0.5rem 0;
+
+  & > li {
+    margin: 0;
+  }
+}
+
+a.tag-link {
+  display: inline-block;
+  background-color: var(--highlight);
+  color: var(--secondary);
+  border-radius: 999px;
+  padding: 0.18rem 0.7rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.4;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+
+  &::before {
+    content: "#";
+    opacity: 0.5;
+  }
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--tertiary) 22%, transparent);
+    color: var(--secondary);
+  }
+}
+
+/* --- Cuerpo del artículo: tipografía más aireada --- */
+.center > article {
+  line-height: 1.7;
+
+  & > h2 {
+    letter-spacing: -0.005em;
+  }
+}
+
+/* --- Objeción: bloque destacado tipo cita (páginas de argumento) --- */
+.callout[data-callout="question"] {
+  --color: var(--secondary);
+  --border: color-mix(in srgb, var(--tertiary) 35%, transparent);
+  --bg: color-mix(in srgb, var(--tertiary) 8%, transparent);
+  border-radius: 14px;
+  padding: 0.25rem 1.6rem 1rem 1.6rem;
+  margin: 1.5rem 0;
+
+  & .callout-title {
+    padding: 1.25rem 0 0.25rem 0;
+  }
+
+  & .callout-title-inner {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+
+  & .callout-content p {
+    font-family: var(--headerFont);
+    font-size: clamp(1.1rem, 1.8vw, 1.45rem);
+    line-height: 1.4;
+    color: var(--dark);
+    margin: 0.25rem 0 0 0;
+  }
+}
+
+/* --- Listado de una sección: filas → tarjetas (como la home) --- */
+.page-listing > p {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+ul.section-ul {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+li.section-li {
+  margin-bottom: 0;
+
+  & > .section {
+    display: block;
+    padding: 1.1rem 1.4rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 12px;
+    background-color: var(--light);
+    transition:
+      transform 0.15s ease,
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-color: var(--tertiary);
+      box-shadow: 0 6px 20px color-mix(in srgb, var(--dark) 8%, transparent);
+    }
+
+    & > .meta {
+      margin: 0 0 0.3rem 0;
+      font-size: 0.78rem;
+      color: var(--gray);
+      opacity: 1;
+    }
+
+    & > .desc > h3 {
+      margin: 0;
+      font-size: 1.12rem;
+
+      & > a {
+        color: var(--dark);
+        background-color: transparent;
+        &:hover {
+          color: var(--secondary);
+        }
+      }
+    }
+
+    & > .tags {
+      margin-top: 0.6rem;
+    }
+  }
+}
+
+/* --- Barra lateral: buscador como píldora, más limpio --- */
+.search > .search-button {
+  border-radius: 999px;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+}

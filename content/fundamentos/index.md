@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 1
 ---
 
-# Fundamentos
 
 Los pilares sobre los que se sostiene el veganismo. Cada pilar es una razón independiente y suficiente.
 

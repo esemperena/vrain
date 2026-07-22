@@ -17,7 +17,6 @@ updated: 2026-07-22
 order: 12
 ---
 
-# «Las plantas también sienten»
 
 > [!question] Objeción
 > Las plantas también reaccionan a estímulos y "sienten", así que comerlas es tan malo como comer animales.

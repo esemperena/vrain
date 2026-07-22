@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 9
 ---
 
-# Sobre este proyecto
 
 Vrain es una base de conocimiento sobre veganismo mantenida en Markdown, editada con Obsidian y publicada con Quartz.
 

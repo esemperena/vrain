@@ -27,7 +27,6 @@ updated: 2026-07-22
 order: 13
 ---
 
-# «Los animales se comen entre ellos»
 
 > [!question] Objeción
 > En la naturaleza los animales se comen unos a otros; es la cadena alimentaria. Si ellos lo hacen, nosotros también podemos.

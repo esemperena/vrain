@@ -11,7 +11,6 @@ updated: 2026-07-22
 order: 5
 ---
 
-# Justicia social
 
 Dimensiones sociales del sistema de producción animal.
 

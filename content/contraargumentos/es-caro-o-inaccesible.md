@@ -17,7 +17,6 @@ updated: 2026-07-22
 order: 15
 ---
 
-# «Ser vegano es caro / inaccesible»
 
 > [!question] Objeción
 > Comer vegano es caro y elitista; la carne barata alimenta a mucha gente que no puede permitirse alternativas.

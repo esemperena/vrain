@@ -17,7 +17,6 @@ updated: 2026-07-22
 order: 14
 ---
 
-# «Una persona sola no cambia nada»
 
 > [!question] Objeción
 > Mi elección individual es insignificante; la industria producirá lo mismo aunque yo deje de consumir animales.

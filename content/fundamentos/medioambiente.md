@@ -11,7 +11,6 @@ updated: 2026-07-22
 order: 3
 ---
 
-# Medioambiente
 
 Impacto ambiental de la ganadería frente a la alimentación basada en plantas.
 

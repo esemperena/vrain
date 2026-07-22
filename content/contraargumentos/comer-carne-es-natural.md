@@ -17,7 +17,6 @@ updated: 2026-07-22
 order: 11
 ---
 
-# «Comer carne es natural»
 
 > [!question] Objeción
 > Los humanos somos omnívoros por naturaleza; comer carne es natural y, por tanto, correcto. Tenemos caninos y nuestro cerebro evolucionó gracias a la carne.

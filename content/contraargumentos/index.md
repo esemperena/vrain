@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 2
 ---
 
-# Contraargumentos y refutaciones
 
 El núcleo del sitio. Cada objeción común contra el veganismo tiene su propia nota con la refutación y las fuentes.
 
