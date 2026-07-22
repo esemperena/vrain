@@ -27,34 +27,10 @@ const HeroGraph = Graph({
 
 const DarkmodeToggle = Darkmode()
 
-interface SectionCard {
-  href: string
-  title: string
-  desc: string
-}
-
-const sections: SectionCard[] = [
-  {
-    href: "/fundamentos/",
-    title: "Fundamentos",
-    desc: "Por qué el veganismo se sostiene: ética, medioambiente, salud y justicia social.",
-  },
-  {
-    href: "/contraargumentos/",
-    title: "Contraargumentos y refutaciones",
-    desc: "Cada objeción común, respondida y con fuentes.",
-  },
-  {
-    href: "/evidencia/estudios/",
-    title: "Evidencia científica",
-    desc: "Estudios que respaldan las afirmaciones del sitio.",
-  },
-  {
-    href: "/meta/",
-    title: "Sobre este proyecto",
-    desc: "Manifiesto, metodología, cómo citar y glosario.",
-  },
-]
+const SUGGEST_ISSUE_URL = `https://github.com/esemperena/vrain/issues/new?${new URLSearchParams({
+  title: "Nuevo contraargumento: ",
+  body: "**Objeción:**\n\n\n**¿Por qué crees que falta en el sitio?**\n\n",
+}).toString()}`
 
 const Home: QuartzComponent = (props: QuartzComponentProps) => {
   return (
@@ -108,14 +84,18 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
           <span class="hero-scroll-chevron"></span>
         </a>
       </section>
-      <section id="secciones" class="home-sections">
-        {sections.map((s) => (
-          <a class="home-card" href={s.href} key={s.href}>
-            <h2>{s.title}</h2>
-            <p>{s.desc}</p>
-            <span class="home-card-arrow">→</span>
+      <section id="secciones" class="home-featured-section">
+        <h2 class="home-featured-title">Los contraargumentos más buscados</h2>
+        <div class="home-featured-grid"></div>
+        <a class="home-viewall" href="/contraargumentos/">
+          Ver todos los contraargumentos →
+        </a>
+        <div class="home-cta">
+          <p class="home-cta-text">¿Tienes un argumento que no está aquí?</p>
+          <a class="home-cta-button" href={SUGGEST_ISSUE_URL} target="_blank" rel="noopener noreferrer">
+            Sugiérelo en GitHub →
           </a>
-        ))}
+        </div>
       </section>
     </div>
   )

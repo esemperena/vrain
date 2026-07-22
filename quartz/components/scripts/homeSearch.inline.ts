@@ -38,21 +38,39 @@ const escapeHTML = (s: string): string =>
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
 
-async function setupHomeSearch() {
-  const root = document.querySelector(".home-search") as HTMLElement | null
-  if (!root) return
+// Los que más se preguntan en la vida real: nutrición, "es natural" y coste.
+// Cubren los tres ejes del sitio (salud, ética/naturaleza, práctico/social).
+// El slug del índice incluye la carpeta (p. ej. "contraargumentos/y-la-proteina").
+const FEATURED_SLUGS = [
+  "contraargumentos/y-la-proteina",
+  "contraargumentos/comer-carne-es-natural",
+  "contraargumentos/es-caro-o-inaccesible",
+]
 
+function cardHTML(e: ContraEntry): string {
+  const falacia = e.falacia
+    .map((f) => `<span class="home-search-falacia">${escapeHTML(f)}</span>`)
+    .join("")
+  return `<a class="home-search-card" href="/${e.slug}">
+    <p class="home-search-objecion">${escapeHTML(e.objecion)}</p>
+    <p class="home-search-respuesta">${escapeHTML(e.respuesta)}</p>
+    <div class="home-search-meta">
+      ${falacia}
+      <span class="home-search-cta">Ver contraargumento →</span>
+    </div>
+  </a>`
+}
+
+function setupFeatured(entries: ContraEntry[], grid: HTMLElement) {
+  const bySlug = new Map(entries.map((e) => [e.slug, e]))
+  const featured = FEATURED_SLUGS.map((s) => bySlug.get(s)).filter(Boolean) as ContraEntry[]
+  grid.innerHTML = featured.map(cardHTML).join("")
+}
+
+function setupSearch(entries: ContraEntry[], root: HTMLElement) {
   const input = root.querySelector(".home-search-input") as HTMLInputElement | null
   const results = root.querySelector(".home-search-results") as HTMLElement | null
   if (!input || !results) return
-
-  let entries: ContraEntry[] = []
-  try {
-    const res = await fetch("static/contraargumentosIndex.json")
-    entries = (await res.json()) as ContraEntry[]
-  } catch (e) {
-    return
-  }
 
   // Dos campos: "objecion" (objeción + alias + título, lo que la gente
   // escribe) pesa más que "respuesta" (texto de la refutación).
@@ -92,22 +110,7 @@ async function setupHomeSearch() {
     }
     root.classList.add("has-results")
     root.classList.remove("no-results")
-    results.innerHTML = ids
-      .map((i) => {
-        const e = entries[i]
-        const falacia = e.falacia
-          .map((f) => `<span class="home-search-falacia">${escapeHTML(f)}</span>`)
-          .join("")
-        return `<a class="home-search-card" href="/${e.slug}">
-          <p class="home-search-objecion">${escapeHTML(e.objecion)}</p>
-          <p class="home-search-respuesta">${escapeHTML(e.respuesta)}</p>
-          <div class="home-search-meta">
-            ${falacia}
-            <span class="home-search-cta">Ver contraargumento →</span>
-          </div>
-        </a>`
-      })
-      .join("")
+    results.innerHTML = ids.map((i) => cardHTML(entries[i])).join("")
   }
 
   const search = (term: string) => {
@@ -138,6 +141,23 @@ async function setupHomeSearch() {
   })
 }
 
+async function setupHome() {
+  const searchRoot = document.querySelector(".home-search") as HTMLElement | null
+  const featuredGrid = document.querySelector(".home-featured-grid") as HTMLElement | null
+  if (!searchRoot && !featuredGrid) return
+
+  let entries: ContraEntry[] = []
+  try {
+    const res = await fetch("static/contraargumentosIndex.json")
+    entries = (await res.json()) as ContraEntry[]
+  } catch (e) {
+    return
+  }
+
+  if (searchRoot) setupSearch(entries, searchRoot)
+  if (featuredGrid) setupFeatured(entries, featuredGrid)
+}
+
 document.addEventListener("nav", () => {
-  void setupHomeSearch()
+  void setupHome()
 })

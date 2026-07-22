@@ -195,11 +195,13 @@
   text-decoration: none;
   transition:
     border-color 0.15s ease,
-    transform 0.15s ease;
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 
   &:hover {
     border-color: var(--tertiary);
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px color-mix(in srgb, var(--dark) 8%, transparent);
   }
 }
 
@@ -301,70 +303,90 @@
   }
 }
 
-.home-sections {
+.home-featured-section {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
+  padding: 3rem 1.5rem 4rem 1.5rem;
   box-sizing: border-box;
+  text-align: center;
+
+  @media all and ($mobile) {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+}
+
+.home-featured-title {
+  font-family: var(--headerFont);
+  font-weight: $boldWeight;
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  color: var(--dark);
+  margin: 0 0 1.75rem 0;
+}
+
+.home-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem;
+  text-align: left;
 
   @media all and ($mobile) {
     grid-template-columns: 1fr;
-    padding: 1.5rem 1rem 3rem 1rem;
+  }
+
+  // Reutiliza .home-search-card, pero como tarjetas fijas (sin resultados
+  // dinámicos) conviene algo más de aire y una altura consistente.
+  .home-search-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .home-search-respuesta {
+    flex: 1;
   }
 }
 
-.home-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 1.5rem 1.75rem;
-  border: 1px solid var(--lightgray);
-  border-radius: 12px;
-  background-color: var(--light);
-  text-decoration: none;
-  transition:
-    transform 0.15s ease,
-    border-color 0.15s ease,
-    box-shadow 0.15s ease;
-
-  h2 {
-    margin: 0;
-    font-size: 1.15rem;
-    color: var(--dark);
-  }
-
-  p {
-    margin: 0;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--darkgray);
-    font-weight: $normalWeight;
-  }
+.home-viewall {
+  display: inline-block;
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+  font-weight: $semiBoldWeight;
+  color: var(--secondary);
 
   &:hover {
-    transform: translateY(-2px);
-    border-color: var(--tertiary);
-    box-shadow: 0 6px 20px color-mix(in srgb, var(--dark) 8%, transparent);
-
-    .home-card-arrow {
-      opacity: 1;
-      transform: translateX(0);
-    }
+    color: var(--tertiary);
   }
 }
 
-.home-card-arrow {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.75rem;
-  color: var(--tertiary);
-  opacity: 0;
-  transform: translateX(-4px);
-  transition:
-    opacity 0.15s ease,
-    transform 0.15s ease;
+.home-cta {
+  margin-top: 2.5rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--lightgray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.home-cta-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--darkgray);
+}
+
+.home-cta-button {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: $semiBoldWeight;
+  color: var(--light);
+  background-color: var(--secondary);
+  padding: 0.55rem 1.25rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--tertiary);
+    color: var(--light);
+  }
 }
