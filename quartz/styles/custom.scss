@@ -138,64 +138,12 @@ a.tag-link {
   }
 }
 
-/* --- Listado de una sección: filas → tarjetas (como la home) --- */
-.page-listing > p {
-  font-size: 0.85rem;
-  color: var(--gray);
-  margin-bottom: 1rem;
-}
-
-ul.section-ul {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-li.section-li {
-  margin-bottom: 0;
-
-  & > .section {
-    display: block;
-    padding: 1.1rem 1.4rem;
-    border: 1px solid var(--lightgray);
-    border-radius: 12px;
-    background-color: var(--light);
-    transition:
-      transform 0.15s ease,
-      border-color 0.15s ease,
-      box-shadow 0.15s ease;
-
-    &:hover {
-      transform: translateY(-2px);
-      border-color: var(--tertiary);
-      box-shadow: 0 6px 20px color-mix(in srgb, var(--dark) 8%, transparent);
-    }
-
-    & > .meta {
-      margin: 0 0 0.3rem 0;
-      font-size: 0.78rem;
-      color: var(--gray);
-      opacity: 1;
-    }
-
-    & > .desc > h3 {
-      margin: 0;
-      font-size: 1.12rem;
-
-      & > a {
-        color: var(--dark);
-        background-color: transparent;
-        &:hover {
-          color: var(--secondary);
-        }
-      }
-    }
-
-    & > .tags {
-      margin-top: 0.6rem;
-    }
-  }
+/* --- Listado automático de una sección: oculto --- */
+/* Cada nota índice de sección ya trae su propio mapa curado ("Por tema"
+   en contraargumentos, listas enlazadas en fundamentos/meta/evidencia),
+   así que el listado automático de Quartz quedaba duplicado. */
+.page-listing {
+  display: none;
 }
 
 /* --- Barra lateral: buscador como píldora, más limpio --- */

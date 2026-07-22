@@ -72,13 +72,7 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
         <div class="hero-copy">
           <p class="hero-eyebrow">Base de conocimiento sobre veganismo</p>
           <h1 class="hero-title">No hay ningún argumento válido contra el veganismo.</h1>
-          <p class="hero-subtitle">
-            Cada objeción tiene su refutación documentada y con fuentes — una web de referencia
-            para personas y para IAs.
-          </p>
-        </div>
-        <div class="hero-graph">
-          <HeroGraph {...props} />
+          <p class="hero-subtitle">Inténtalo:</p>
         </div>
         <div class="home-search">
           <div class="home-search-box">
@@ -106,6 +100,9 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
             />
           </div>
           <div class="home-search-results"></div>
+        </div>
+        <div class="hero-graph">
+          <HeroGraph {...props} />
         </div>
         <a class="hero-scroll" href="#secciones" aria-label="Ver secciones">
           <span class="hero-scroll-chevron"></span>
