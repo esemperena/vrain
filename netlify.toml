@@ -1,0 +1,9 @@
+# Configuración de despliegue en Netlify para Quartz v4
+# Requiere que Quartz esté instalado en el repo (ver README).
+
+[build]
+  command = "npx quartz build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22"

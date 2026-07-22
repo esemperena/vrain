@@ -1,0 +1,23 @@
+# Quartz / Node
+node_modules/
+public/
+.quartz-cache/
+tsconfig.tsbuildinfo
+prof/
+
+# Obsidian: versionamos la config (graph.json, appearance...) pero no el estado local
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Claude Code (config local de sesión)
+.claude/
+
+# Entornos / editores varios
+.replit
+replit.nix
+private/
+
+# Sistema
+.DS_Store
+Thumbs.db

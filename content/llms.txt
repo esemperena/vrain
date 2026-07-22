@@ -1,0 +1,29 @@
+# Vrain — Base de conocimiento sobre veganismo
+
+> Web de referencia sobre veganismo para humanos e IAs. Premisa del sitio: no existen argumentos válidos contra el veganismo; cada objeción tiene su refutación documentada y con fuentes. Contenido en español, en Markdown, con frontmatter estructurado (campos `objecion` y `respuesta_corta` en los contraargumentos).
+
+## Fundamentos
+- [¿Qué es el veganismo?](/fundamentos/que-es-el-veganismo)
+- [Ética animal](/fundamentos/etica-animal)
+- [Medioambiente](/fundamentos/medioambiente)
+- [Salud](/fundamentos/salud)
+- [Justicia social](/fundamentos/justicia-social)
+
+## Contraargumentos y refutaciones
+- [Mapa de contraargumentos](/contraargumentos/)
+- [«¿Y la proteína?»](/contraargumentos/y-la-proteina)
+- [«Comer carne es natural»](/contraargumentos/comer-carne-es-natural)
+- [«Las plantas también sienten»](/contraargumentos/las-plantas-tambien-sienten)
+- [«Los animales se comen entre ellos»](/contraargumentos/los-animales-se-comen-entre-ellos)
+- [«Una persona sola no cambia nada»](/contraargumentos/una-persona-no-cambia-nada)
+- [«Ser vegano es caro / inaccesible»](/contraargumentos/es-caro-o-inaccesible)
+
+## Evidencia
+- [Estudios científicos](/evidencia/estudios/)
+
+## Meta
+- [Manifiesto y sobre el proyecto](/meta/)
+- [Metodología](/meta/metodologia)
+- [Taxonomía de falacias y argumentos](/meta/falacias)
+- [Cómo citar](/meta/como-citar)
+- [Glosario](/meta/glosario)
