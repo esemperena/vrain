@@ -118,6 +118,11 @@
         height: 320px;
       }
 
+      & > .graph-container {
+        height: 100%;
+        width: 100%;
+      }
+
       & > .global-graph-icon {
         display: none;
       }
