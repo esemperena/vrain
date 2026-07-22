@@ -43,7 +43,7 @@ Sirve el sitio en `http://localhost:8080` con recarga en caliente. Los borradore
 
 1. Instalar dependencias una vez: `npm install`.
 2. Subir el repo a GitHub.
-3. En Netlify, "Add new site → Import from Git" y elegir el repo. El [`netlify.toml`](netlify.toml) ya define el build (`npx quartz build` → `public/`).
+3. En Netlify, "Add new site → Import from Git" y elegir el repo. El [`netlify.toml`](netlify.toml) ya define el build (`node ./quartz/bootstrap-cli.mjs build` → `public/`; se invoca el script directamente en vez de con `npx` porque el npm de Netlify puede no resolver el bin del propio paquete raíz).
 4. Tras el primer deploy, actualizar `baseUrl` en [`quartz.config.ts`](quartz.config.ts) con el dominio real (afecta a sitemap, RSS y OpenGraph).
 
 > Quartz v4 ya está integrado en el repo. El índice para IAs se publica en `/llms.txt` (fichero en `content/llms.txt`).

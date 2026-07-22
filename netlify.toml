@@ -2,7 +2,7 @@
 # Requiere que Quartz esté instalado en el repo (ver README).
 
 [build]
-  command = "npx quartz build"
+  command = "node ./quartz/bootstrap-cli.mjs build"
   publish = "public"
 
 [build.environment]
