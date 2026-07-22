@@ -4,17 +4,21 @@ Base de conocimiento (*second brain*) sobre veganismo en Markdown. Se edita con 
 
 > **Premisa del proyecto:** no existen argumentos válidos contra el veganismo. Cada objeción común se recoge y se refuta con razonamiento y fuentes.
 
+- **Sitio en vivo:** https://vvrain.netlify.app/
+- **Índice para IAs:** https://vvrain.netlify.app/llms.txt
+
 ## Estructura
 
 ```
 content/                 # raíz de notas (vault de Obsidian y fuente de Quartz)
-├── index.md             # portada
+├── index.md             # portada (renderizada por la landing page personalizada)
 ├── fundamentos/         # pilares: ética, medioambiente, salud, justicia social
 ├── contraargumentos/    # núcleo: una nota por objeción (en plano) + mapa
 ├── evidencia/estudios/  # una nota por estudio, citable desde el resto
-└── meta/                # manifiesto, metodología, cómo citar, glosario
-llms.txt                 # índice legible para modelos de IA
+├── meta/                # manifiesto, metodología, cómo citar, glosario, taxonomía de falacias
+└── llms.txt             # índice legible para modelos de IA (se sirve en /llms.txt)
 netlify.toml             # build de Netlify
+quartz/                  # motor Quartz v4 (con personalizaciones, ver CUSTOMIZATIONS.md)
 ```
 
 ## Convenciones
@@ -23,9 +27,18 @@ netlify.toml             # build de Netlify
 - **Sin prefijos numéricos** en carpetas; el orden se controla con `order:` en el frontmatter.
 - **Notas atómicas** y enlazadas con `[[wikilinks]]`.
 - **Frontmatter estándar** y taxonomía de tags: ver [`content/meta/metodologia.md`](content/meta/metodologia.md).
-- Los **contraargumentos** incluyen `objecion` y `respuesta_corta` para lectura por IA.
+- Los **contraargumentos** incluyen `objecion`, `respuesta_corta`, `aliases`, `falacia` y `argumento`. Esos campos alimentan el buscador de la home; la taxonomía de valores de `falacia`/`argumento` está en [`content/meta/falacias.md`](content/meta/falacias.md).
+- **Publicación:** Quartz publica según el campo `draft`, no según `estado`. Durante la fase de construcción todas las notas están en `draft: false` para evitar enlaces rotos; ver la excepción documentada en [`content/meta/metodologia.md`](content/meta/metodologia.md).
 
-## Puesta en marcha (pendiente)
+## Funcionalidades del sitio
+
+- **Landing page personalizada** (no la plantilla wiki de Quartz): la premisa como titular, el graph global centrado como pieza principal, y un grid de secciones bajo el pliegue.
+- **Buscador de contraargumentos estilo Google** bajo el graph: el usuario escribe un argumento contra el veganismo y ve el contraargumento que aplica, con su refutación corta y su falacia. 100% estático (FlexSearch en el cliente).
+- El resto de páginas usan el layout estándar de Quartz (explorador, buscador global, backlinks, graph local).
+
+> Estas funcionalidades implican cambios sobre el motor de Quartz. **Antes de ejecutar `quartz update`, lee [`CUSTOMIZATIONS.md`](CUSTOMIZATIONS.md)**, que lista cada archivo modificado o añadido y por qué.
+
+## Puesta en marcha
 
 ### Editar
 
@@ -34,16 +47,16 @@ Abrir la carpeta `content/` como vault en Obsidian y editar las notas.
 ### Previsualizar en local
 
 ```bash
+npm install        # solo la primera vez
 npx quartz build --serve
 ```
 
 Sirve el sitio en `http://localhost:8080` con recarga en caliente. Los borradores (`draft: true`) no se muestran.
 
-### Publicar en Netlify
+### Despliegue en Netlify
 
-1. Instalar dependencias una vez: `npm install`.
-2. Subir el repo a GitHub.
-3. En Netlify, "Add new site → Import from Git" y elegir el repo. El [`netlify.toml`](netlify.toml) ya define el build (`node ./quartz/bootstrap-cli.mjs build` → `public/`; se invoca el script directamente en vez de con `npx` porque el npm de Netlify puede no resolver el bin del propio paquete raíz).
-4. Tras el primer deploy, actualizar `baseUrl` en [`quartz.config.ts`](quartz.config.ts) con el dominio real (afecta a sitemap, RSS y OpenGraph).
+Ya configurado: el repo `esemperena/vrain` está conectado a Netlify con deploy continuo. Cada push a `master` dispara un build automático.
 
-> Quartz v4 ya está integrado en el repo. El índice para IAs se publica en `/llms.txt` (fichero en `content/llms.txt`).
+El [`netlify.toml`](netlify.toml) define el build como `node ./quartz/bootstrap-cli.mjs build` → `public/`. Se invoca el script directamente en vez de con `npx quartz build` porque el npm de Netlify puede no resolver el `bin` del propio paquete raíz (daba exit 127).
+
+`baseUrl` en [`quartz.config.ts`](quartz.config.ts) apunta a `vvrain.netlify.app` (afecta a sitemap, RSS y OpenGraph). Actualizarlo si cambia el dominio.
