@@ -1,3 +1,29 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Homepage: landing page real, no plantilla de wiki de Quartz.
+// Oculta el chrome habitual (sidebars, grid a 3 columnas, artículo markdown)
+// y deja sitio a quartz/components/Home.tsx.
+body[data-slug="index"] {
+  #quartz-body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+
+    & .sidebar.left,
+    & .sidebar.right {
+      display: none;
+    }
+
+    & .center > article {
+      display: none;
+    }
+
+    & .page-header {
+      margin: 0;
+    }
+  }
+}
