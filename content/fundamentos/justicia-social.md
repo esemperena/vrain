@@ -3,7 +3,7 @@ title: "Justicia social"
 tags: [tipo/fundamento, tema/social]
 tipo: fundamento
 estado: borrador
-draft: true
+draft: false
 fuentes: []
 relacionadas: []
 created: 2026-07-22

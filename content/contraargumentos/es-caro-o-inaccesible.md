@@ -3,7 +3,7 @@ title: "«Ser vegano es caro / inaccesible»"
 tags: [tipo/contraargumento, tema/social]
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia: [generalizacion-apresurada, falso-dilema]
 argumento: [contraejemplo, distincion-esencial-accidental]
 aliases: ["ser vegano es caro", "el veganismo es elitista", "no todos pueden permitirse ser veganos"]

@@ -3,7 +3,7 @@ title: "Salud"
 tags: [tipo/fundamento, tema/salud, tema/nutricion]
 tipo: fundamento
 estado: borrador
-draft: true
+draft: false
 fuentes: []
 relacionadas: ["[[contraargumentos/y-la-proteina]]"]
 created: 2026-07-22

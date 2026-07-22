@@ -3,7 +3,7 @@ title: "¿Qué es el veganismo?"
 tags: [tipo/fundamento, tema/etica]
 tipo: fundamento
 estado: revision
-draft: true
+draft: false
 fuentes: []
 relacionadas: ["[[fundamentos/etica-animal]]"]
 created: 2026-07-22

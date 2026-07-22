@@ -3,7 +3,7 @@ title: "Medioambiente"
 tags: [tipo/fundamento, tema/medioambiente]
 tipo: fundamento
 estado: borrador
-draft: true
+draft: false
 fuentes: []
 relacionadas: []
 created: 2026-07-22

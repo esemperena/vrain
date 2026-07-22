@@ -3,7 +3,7 @@ title: "«Comer carne es natural»"
 tags: [tipo/contraargumento, tema/etica]
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia: [naturalista]
 argumento: [hecho-valor, necesidad]
 aliases: ["somos omnívoros", "tenemos caninos para comer carne", "comer carne es natural", "la carne nos hizo humanos"]

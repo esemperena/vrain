@@ -3,7 +3,7 @@ title: "«Una persona sola no cambia nada»"
 tags: [tipo/contraargumento, tema/social]
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia: [composicion, ineficacia]
 argumento: [demanda-agregada]
 aliases: ["mi elección no cambia nada", "la industria seguirá igual", "un vegano no marca la diferencia"]

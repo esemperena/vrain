@@ -3,7 +3,7 @@ title: "«¿Y la proteína?»"
 tags: [tipo/contraargumento, tema/salud, tema/nutricion]
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia: [error-factual, generalizacion-apresurada]
 argumento: [cientifico, nutricional]
 aliases: ["de dónde sacas la proteína", "las proteínas vegetales son incompletas", "no puedes obtener suficiente proteína siendo vegano"]

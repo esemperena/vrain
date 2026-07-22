@@ -5,7 +5,7 @@ tags:
   - tema/etica
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia:
   - naturalista
 argumento:

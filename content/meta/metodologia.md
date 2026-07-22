@@ -29,6 +29,8 @@ Quartz decide qué se publica con el campo `draft`, **no** con `estado`. Regla d
 
 Al pasar una nota a `verificado`, poner `draft: false`.
 
+> **Excepción temporal (fase de construcción):** mientras el sitio se está poblando, se ha puesto `draft: false` también en notas `borrador`/`revision` para evitar enlaces rotos entre páginas ya publicadas (los índices de fundamentos y contraargumentos enlazan a sus notas hijas). Volver a aplicar la regla estricta antes de considerar el sitio "lanzado" oficialmente: revisar cada nota, completar `fuentes`, pasar a `verificado` o devolver a `draft: true` si aún no está lista.
+
 ## Reglas para las afirmaciones
 
 1. Toda afirmación factual relevante debe enlazar a una **fuente** (nota en [[evidencia/estudios/index|estudios]] o enlace externo).

@@ -3,7 +3,7 @@ title: "«Las plantas también sienten»"
 tags: [tipo/contraargumento, tema/etica, tema/salud]
 tipo: contraargumento
 estado: revision
-draft: true
+draft: false
 falacia: [tu-quoque, error-factual]
 argumento: [cientifico, reductio-ad-absurdum]
 aliases: ["las plantas sufren", "arrancar una zanahoria también mata", "las plantas también sienten dolor"]

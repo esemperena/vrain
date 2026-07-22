@@ -3,7 +3,7 @@ title: "Ética animal"
 tags: [tipo/fundamento, tema/etica]
 tipo: fundamento
 estado: borrador
-draft: true
+draft: false
 fuentes: []
 relacionadas: ["[[fundamentos/que-es-el-veganismo]]"]
 created: 2026-07-22
