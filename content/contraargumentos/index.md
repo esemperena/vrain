@@ -9,23 +9,19 @@ order: 2
 ---
 
 
-El núcleo del sitio. Cada objeción común contra el veganismo tiene su propia nota con la refutación y las fuentes.
+En esta sección se recogen todas las refutaciones contra los posibles argumentos contra el veganismo, agrupados por temas.
 
-> Las notas se guardan en plano; este mapa las agrupa por tema. Al estar todo enlazado internamente, la navegación por grafo y por tags queda cubierta.
-
-## Por tema
-
-### Salud y nutrición
+## Salud y nutrición
 - [[contraargumentos/y-la-proteina|«¿Y la proteína?»]]
 - [[contraargumentos/las-plantas-tambien-sienten|«Las plantas también sienten»]]
 
-### Ética y naturaleza
+## Ética y naturaleza
 - [[contraargumentos/comer-carne-es-natural|«Comer carne es natural»]]
 - [[contraargumentos/los-animales-se-comen-entre-ellos|«Los animales se comen entre ellos»]]
 - [[contraargumentos/las-plantas-tambien-sienten|«Las plantas también sienten»]]
 
-### Práctico / social
+## Práctico / social
 - [[contraargumentos/una-persona-no-cambia-nada|«Una persona sola no cambia nada»]]
 - [[contraargumentos/es-caro-o-inaccesible|«Ser vegano es caro / inaccesible»]]
 
-> A medida que se creen notas, añadirlas aquí bajo su tema.
+> A medida que se creen notas, se añadirán aquí bajo su tema.
