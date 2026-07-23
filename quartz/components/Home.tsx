@@ -85,10 +85,10 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
         </a>
       </section>
       <section id="secciones" class="home-featured-section">
-        <h2 class="home-featured-title">Los contraargumentos más buscados</h2>
+        <h2 class="home-featured-title">Los más buscados</h2>
         <div class="home-featured-grid"></div>
         <a class="home-viewall" href="/contraargumentos/">
-          Ver todos los contraargumentos →
+          Ver todos →
         </a>
         <div class="home-cta">
           <p class="home-cta-text">¿Tienes un argumento que no está aquí?</p>

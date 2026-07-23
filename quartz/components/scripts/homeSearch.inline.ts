@@ -56,7 +56,7 @@ function cardHTML(e: ContraEntry): string {
     <p class="home-search-respuesta">${escapeHTML(e.respuesta)}</p>
     <div class="home-search-meta">
       ${falacia}
-      <span class="home-search-cta">Ver contraargumento →</span>
+      <span class="home-search-cta">Ver →</span>
     </div>
   </a>`
 }
