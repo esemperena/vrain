@@ -27,10 +27,9 @@ const HeroGraph = Graph({
 
 const DarkmodeToggle = Darkmode()
 
-const SUGGEST_ISSUE_URL = `https://github.com/esemperena/vrain/issues/new?${new URLSearchParams({
-  title: "Nuevo contraargumento: ",
-  body: "**Objeción:**\n\n\n**¿Por qué crees que falta en el sitio?**\n\n",
-}).toString()}`
+// Abre directamente el issue form "nuevo-contraargumento" (ver .github/ISSUE_TEMPLATE/).
+const SUGGEST_ISSUE_URL =
+  "https://github.com/esemperena/vrain/issues/new?template=nuevo-contraargumento.yml"
 
 const Home: QuartzComponent = (props: QuartzComponentProps) => {
   return (

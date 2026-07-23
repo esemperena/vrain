@@ -1,0 +1,40 @@
+name: "Nuevo contraargumento"
+description: "Sugiere una objeción contra el veganismo que no esté cubierta en el sitio."
+title: "Nuevo contraargumento: "
+labels: ["contraargumento"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a ampliar [Vrain](https://vvrain.netlify.app/). Antes de continuar,
+        échale un vistazo al [mapa de contraargumentos](https://vvrain.netlify.app/contraargumentos/)
+        por si ya está cubierta.
+
+        Describe la objeción tal como la formularía alguien real — cuanto más literal, mejor
+        podremos redactar la refutación y sus variantes (`aliases`).
+  - type: textarea
+    id: objecion
+    attributes:
+      label: "La objeción"
+      description: "¿Qué argumento contra el veganismo quieres que cubramos?"
+      placeholder: |
+        Ej: "Los inuit no pueden ser veganos por el clima, así que el veganismo no es universal"
+    validations:
+      required: true
+  - type: textarea
+    id: variantes
+    attributes:
+      label: "Variantes o formas de decirlo"
+      description: "Otras maneras en que has visto formulada esta misma objeción (una por línea). Alimenta el campo `aliases` de la nota."
+      placeholder: |
+        no todo el mundo puede ser vegano
+        depende del clima o la cultura
+    validations:
+      required: false
+  - type: textarea
+    id: contexto
+    attributes:
+      label: "Contexto adicional"
+      description: "¿Dónde la has visto o escuchado? ¿Conoces alguna fuente relevante, a favor o en contra?"
+    validations:
+      required: false

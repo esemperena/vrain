@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Mapa de contraargumentos"
+    url: https://vvrain.netlify.app/contraargumentos/
+    about: "Consulta primero si la objeción ya está cubierta antes de sugerir una nueva."
