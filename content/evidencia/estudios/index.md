@@ -51,6 +51,13 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | [[evidencia/estudios/verduci-2025-espghan-dieta-vegana-infancia\|Verduci et al. — Posición ESPGHAN, dieta vegana infantil (crítica)]] | Posición oficial | 2025 | [[contraargumentos/grupos-vulnerables]] |
 | [[evidencia/estudios/brits-legrange-2026-dieta-vegana-salud-infantil\|Brits y le Grange — Dieta vegana y salud infantil]] | Revisión de alcance | 2026 | [[contraargumentos/grupos-vulnerables]] |
 
+### Salud — desenlaces y base evolutiva
+
+| Estudio | Tipo | Año | Usado en |
+|---|---|---|---|
+| [[evidencia/estudios/dinu-2017-dietas-vegetarianas-multiples-desenlaces\|Dinu et al. — Dietas vegetarianas y múltiples desenlaces (crítica)]] | Revisión sistemática | 2017 | [[contraargumentos/comer-carne-es-natural]] |
+| [[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana\|Andrews y Johnson — Base evolutiva de la dieta humana]] | Revisión | 2020 | [[contraargumentos/comer-carne-es-natural]] |
+
 ### Nutrición — omega-3
 
 | Estudio | Tipo | Año | Usado en |
