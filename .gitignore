@@ -10,8 +10,11 @@ prof/
 .obsidian/workspace-mobile.json
 .obsidian/cache
 
-# Claude Code (config local de sesión)
-.claude/
+# Claude Code (config local de sesión, salvo skills versionados)
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/evidencia-cientifica/
 
 # Entornos / editores varios
 .replit

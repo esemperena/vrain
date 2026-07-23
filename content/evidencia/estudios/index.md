@@ -30,4 +30,29 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 
 ## Estudios
 
-> Vacío por ahora. Añadir una nota por estudio.
+### Nutrición — proteína y aminoácidos
+
+| Estudio | Tipo | Año | Usado en |
+|---|---|---|---|
+| [[evidencia/estudios/raj-2025-posicion-academy-vegetariana\|Raj et al. — Posición Academy (vigente)]] | Posición oficial | 2025 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/melina-2016-posicion-academy-vegetariana\|Melina et al. — Posición Academy (ciclo vital)]] | Posición oficial | 2016 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/mariotti-gardner-2019-proteina-aminoacidos-vegetariana\|Mariotti y Gardner — Proteína y aminoácidos]] | Revisión | 2019 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/young-pellett-1994-proteinas-vegetales\|Young y Pellett — Proteínas vegetales]] | Revisión | 1994 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/soh-2025-calidad-proteica-vegana\|Soh et al. — Calidad proteica (crítica)]] | Revisión narrativa | 2025 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra\|Lim et al. — Animal vs. vegetal, masa magra]] | Meta-análisis | 2021 | [[contraargumentos/y-la-proteina]] |
+
+### Nutrición — omega-3
+
+| Estudio | Tipo | Año | Usado en |
+|---|---|---|---|
+| [[evidencia/estudios/garcia-maldonado-2023-suplemento-dha-algas-veganos\|García-Maldonado et al. — Suplemento de DHA de algas en veganos]] | Ensayo clínico | 2023 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/klein-2025-conversion-ala-dha-veganos\|Klein et al. — Conversión de ALA en n-3 (NuEva Study)]] | Ensayo clínico | 2025 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/chamorro-2026-omega3-dietas-vegetarianas\|Chamorro et al. — Omega-3 en dietas vegetarianas (crítica)]] | Revisión sistemática | 2026 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/calder-2025-recomendaciones-omega3\|Calder et al. — Recomendaciones mundiales de omega-3]] | Revisión | 2025 | [[contraargumentos/omega3-cadena-larga]] |
+
+## Criterios de inclusión
+
+- Prioridad a **meta-análisis, revisiones sistemáticas y posiciones oficiales** de sociedades científicas.
+- Cada nota debe incluir DOI y, cuando exista, PMID, para que la cita sea verificable.
+- Se incluyen deliberadamente **fuentes críticas** con el veganismo (marcadas con `postura/critica`). Un contraargumento que solo cite fuentes favorables es frágil.
+- Cada nota lleva un apartado de **limitaciones**: sin él, la nota no está terminada.
