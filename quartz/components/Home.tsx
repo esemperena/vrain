@@ -13,15 +13,22 @@ const HeroGraph = Graph({
     depth: -1,
     scale: 1,
     repelForce: 1.3,
-    centerForce: 0.35,
+    centerForce: 0.2,
     linkDistance: 90,
     fontSize: 0.8,
     opacityScale: 1,
     showTags: false,
     removeTags: [],
     focusOnHover: true,
-    enableRadial: false,
+    // Fuerza radial: reparte los nodos en anillo en vez de dejar que el hub de
+    // `evidencia/estudios` (41 enlaces) los colapse en una maraña central.
+    enableRadial: true,
     showLabels: true,
+    // Solo los nodos troncales llevan etiqueta fija: los índices de sección y
+    // los contraargumentos muy enlazados. El resto aparece al hacer zoom o al
+    // pasar el ratón. Umbral alto a propósito: las notas de estudio tienen
+    // títulos de 80-90 caracteres y saturan el grafo.
+    labelThreshold: 15,
   },
 })
 

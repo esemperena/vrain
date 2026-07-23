@@ -50,6 +50,7 @@ type LinkRenderData = GraphicsInfo & {
 type NodeRenderData = GraphicsInfo & {
   simulationData: NodeData
   label: Text
+  alwaysShowLabel: boolean
 }
 
 const localStorageKey = "graph-visited"
@@ -88,6 +89,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     focusOnHover,
     enableRadial,
     showLabels,
+    labelThreshold,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -96,6 +98,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       v,
     ]),
   )
+  // Índices de sección (content/<seccion>/index.md). Son las "páginas
+  // principales" del vault y siempre llevan etiqueta si se usa labelThreshold.
+  const indexSlugs = new Set<SimpleSlug>(
+    Object.keys(await fetchData)
+      .filter((k) => k === "index" || k.endsWith("/index"))
+      .map((k) => simplifySlug(k as FullSlug)),
+  )
+
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
@@ -206,11 +216,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   }
 
+  function numLinksFor(id: SimpleSlug) {
+    return graphData.links.filter((l) => l.source.id === id || l.target.id === id).length
+  }
+
   function nodeRadius(d: NodeData) {
-    const numLinks = graphData.links.filter(
-      (l) => l.source.id === d.id || l.target.id === d.id,
-    ).length
-    return 2 + Math.sqrt(numLinks)
+    return 2 + Math.sqrt(numLinksFor(d.id))
   }
 
   let hoveredNodeId: string | null = null
@@ -375,11 +386,20 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   for (const n of graphData.nodes) {
     const nodeId = n.id
 
+    // Etiqueta permanente solo en las páginas principales: los índices de
+    // sección y los nodos muy enlazados. Sin `labelThreshold` el comportamiento
+    // es el de siempre: se etiquetan todos los nodos o ninguno.
+    const alwaysShowLabel =
+      !!showLabels &&
+      (labelThreshold === undefined ||
+        indexSlugs.has(nodeId) ||
+        numLinksFor(nodeId) >= labelThreshold)
+
     const label = new Text({
       interactive: false,
       eventMode: "none",
       text: n.text,
-      alpha: showLabels ? 1 : 0,
+      alpha: alwaysShowLabel ? 1 : 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
         fontSize: fontSize * 15,
@@ -427,6 +447,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       simulationData: n,
       gfx,
       label,
+      alwaysShowLabel,
       color: color(n),
       alpha: 1,
       active: false,
@@ -512,12 +533,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
           // zoom adjusts opacity of labels too
           const scale = transform.k * opacityScale
-          let scaleOpacity = showLabels ? 1 : Math.max((scale - 1) / 3.75, 0)
+          const scaleOpacity = Math.max((scale - 1) / 3.75, 0)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
-          for (const label of labelsContainer.children) {
-            if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
+          for (const n of nodeRenderData) {
+            if (!activeNodes.includes(n.label)) {
+              n.label.alpha = n.alwaysShowLabel ? 1 : scaleOpacity
             }
           }
         }),

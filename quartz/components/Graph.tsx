@@ -20,6 +20,13 @@ export interface D3Config {
   focusOnHover?: boolean
   enableRadial?: boolean
   showLabels?: boolean
+  /**
+   * Con `showLabels: true`, limita la etiqueta permanente a las páginas
+   * principales: los índices de sección (siempre) y los nodos con al menos este
+   * número de enlaces. El resto se comporta como por defecto — aparecen al
+   * acercar el zoom o al pasar el ratón. Si no se define, se etiquetan todos.
+   */
+  labelThreshold?: number
 }
 
 interface GraphOptions {

@@ -35,8 +35,16 @@ La portada (`content/index.md`, slug `index`) no usa la plantilla wiki de Quartz
 
 ## Graph con etiquetas visibles
 
-- **`quartz/components/Graph.tsx`** (MODIFICADO) — nuevo campo opcional `showLabels?: boolean` en la interfaz `D3Config`.
+- **`quartz/components/Graph.tsx`** (MODIFICADO) — campos opcionales `showLabels?: boolean` y `labelThreshold?: number` en la interfaz `D3Config`.
 - **`quartz/components/scripts/graph.inline.ts`** (MODIFICADO) — cuando `showLabels` es `true`, las etiquetas de los nodos nacen con `alpha: 1` y el handler de zoom no las atenúa. Cambio **aditivo**: si `showLabels` no se define (los grafos de las demás páginas), el comportamiento es el original.
+- **`labelThreshold`** — con `showLabels: true`, limita la etiqueta fija a las páginas principales: los índices de sección (`*/index.md`, siempre) más los nodos con al menos N enlaces. Los demás recuperan el comportamiento por defecto (aparecen al acercar el zoom o al pasar el ratón). Evita que un grafo con `depth: -1` dibuje decenas de textos solapados. Sin `labelThreshold` se etiquetan todos los nodos, como antes.
+  - Implementación: se extrae `numLinksFor(id)` (que ya usaba `nodeRadius`), se construye `indexSlugs` a partir de las claves de `contentIndex.json`, se calcula `alwaysShowLabel` por nodo al crearlo y se guarda en `NodeRenderData`; el handler de zoom recorre `nodeRenderData` en vez de `labelsContainer.children` para respetar ese flag.
+  - La home lo usa con `labelThreshold: 15` → etiqueta fija en los 5 índices de sección más «¿Y la proteína?» (17 enlaces), 6 de 54 nodos.
+  - **Por qué el umbral es alto:** los títulos de las notas de estudio miden 80-90 caracteres (`Melina et al. (2016) — Posición de la Academy…`). Un umbral bajo (6) las incluía y saturaba el grafo más que el problema original. Los índices de sección, en cambio, tienen títulos de 5-31 caracteres, y por eso se etiquetan siempre al margen del umbral.
+
+### Configuración del graph en las páginas de contenido
+
+- **`quartz.layout.ts`** (MODIFICADO) — el `Graph` de la barra lateral recibe `showTags: false` para igualar la configuración de Obsidian. Por defecto Quartz usa `showTags: true`, lo que convertía cada uno de los 16 tags del vault en un nodo *hub* conectado a decenas de notas y saturaba el grafo.
 
 ## Buscador de contraargumentos (Nivel 2)
 
