@@ -93,7 +93,7 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
           Ver todos →
         </a>
         <div class="home-cta">
-          <p class="home-cta-text">¿Crees que nos falta alguna objección?</p>
+          <p class="home-cta-text">¿Crees que nos falta alguna objeción?</p>
           <a class="home-cta-button" href={SUGGEST_ISSUE_URL} target="_blank" rel="noopener noreferrer">
             Sugiérelo en GitHub →
           </a>
