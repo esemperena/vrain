@@ -54,7 +54,21 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.ConditionalRender({
-      component: Component.Graph(),
+      component: Component.Graph({
+        localGraph: {
+          showTags: false,
+          depth: 1,
+          repelForce: 0.75,
+          linkDistance: 40,
+          fontSize: 0.55,
+        },
+        globalGraph: {
+          showTags: false,
+          repelForce: 0.75,
+          linkDistance: 40,
+          fontSize: 0.5,
+        },
+      }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.DesktopOnly(Component.TableOfContents()),
