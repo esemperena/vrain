@@ -41,6 +41,9 @@ const Home: QuartzComponent = (props: QuartzComponentProps) => {
             <a class="hero-nav-link" href="/contraargumentos/">
               Explorar
             </a>
+            <a class="hero-nav-link" href="/colabora">
+              Colabora
+            </a>
             <DarkmodeToggle {...props} />
           </div>
         </div>
