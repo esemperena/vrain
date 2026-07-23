@@ -1,0 +1,26 @@
+name: Validar contraargumentos
+
+# Comprueba que cada nota de contraargumento sigue la plantilla del sitio.
+# Se ejecuta solo cuando un PR toca contraargumentos, la taxonomía o el script.
+on:
+  pull_request:
+    paths:
+      - "content/contraargumentos/**.md"
+      - "content/meta/falacias.md"
+      - ".github/scripts/validate-contraargumentos.mjs"
+  # Permite lanzarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      # Instala las dependencias del proyecto (incluye js-yaml, usado por el
+      # script para parsear el frontmatter). La caché acelera las repeticiones.
+      - run: npm ci
+      - run: node .github/scripts/validate-contraargumentos.mjs
