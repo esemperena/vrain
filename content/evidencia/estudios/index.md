@@ -38,8 +38,18 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | [[evidencia/estudios/melina-2016-posicion-academy-vegetariana\|Melina et al. — Posición Academy (ciclo vital)]] | Posición oficial | 2016 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/mariotti-gardner-2019-proteina-aminoacidos-vegetariana\|Mariotti y Gardner — Proteína y aminoácidos]] | Revisión | 2019 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/young-pellett-1994-proteinas-vegetales\|Young y Pellett — Proteínas vegetales]] | Revisión | 1994 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/bakaloudi-2021-adecuacion-dieta-vegana\|Bakaloudi et al. — Ingesta y adecuación de la dieta vegana (crítica)]] | Revisión sistemática | 2021 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/rolands-2025-adecuacion-proteica-dietas-vegetales\|Rolands et al. — Adecuación proteica y fuentes vegetales]] | Revisión sistemática | 2025 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/soh-2025-calidad-proteica-vegana\|Soh et al. — Calidad proteica (crítica)]] | Revisión narrativa | 2025 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra\|Lim et al. — Animal vs. vegetal, masa magra]] | Meta-análisis | 2021 | [[contraargumentos/y-la-proteina]] |
+
+### Nutrición — infancia y grupos vulnerables
+
+| Estudio | Tipo | Año | Usado en |
+|---|---|---|---|
+| [[evidencia/estudios/papadopoulou-2025-dieta-vegetariana-estricta-embarazo\|Papadopoulou et al. — Dieta vegetariana estricta y embarazo (crítica)]] | Meta-análisis | 2025 | [[contraargumentos/grupos-vulnerables]] |
+| [[evidencia/estudios/verduci-2025-espghan-dieta-vegana-infancia\|Verduci et al. — Posición ESPGHAN, dieta vegana infantil (crítica)]] | Posición oficial | 2025 | [[contraargumentos/grupos-vulnerables]] |
+| [[evidencia/estudios/brits-legrange-2026-dieta-vegana-salud-infantil\|Brits y le Grange — Dieta vegana y salud infantil]] | Revisión de alcance | 2026 | [[contraargumentos/grupos-vulnerables]] |
 
 ### Nutrición — omega-3
 
