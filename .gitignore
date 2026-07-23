@@ -9,6 +9,8 @@ prof/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+.obsidian/community-plugins.json
+.obsidian/plugins/
 
 # Claude Code (config local de sesión, salvo skills versionados)
 .claude/*

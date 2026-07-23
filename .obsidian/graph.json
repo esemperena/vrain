@@ -1,22 +1,51 @@
 {
-  "collapse-filter": true,
-  "search": "-file:index",
+  "collapse-filter": false,
+  "search": "-file:index ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:content/contraargumentos",
+      "color": {
+        "a": 1,
+        "rgb": 14711609
+      }
+    },
+    {
+      "query": "path:content/evidencia",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "path:content/fundamentos",
+      "color": {
+        "a": 1,
+        "rgb": 5025616
+      }
+    },
+    {
+      "query": "path:content/meta",
+      "color": {
+        "a": 1,
+        "rgb": 9338051
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "textFadeMultiplier": 1.5,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 0.6,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 18,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "scale": 0.13168724279835264,
+  "close": true
 }
