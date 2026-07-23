@@ -8,7 +8,6 @@ updated: 2026-07-22
 order: 3
 ---
 
-
 Base factual reutilizable. Cada estudio es **una nota** que resume el paper y enlaza a la fuente original; desde las demás secciones se cita con `[[nombre-del-estudio]]`.
 
 ## Plantilla de una nota de estudio
@@ -32,24 +31,24 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 
 ### Nutrición — proteína y aminoácidos
 
-| Estudio | Tipo | Año | Usado en |
-|---|---|---|---|
-| [[evidencia/estudios/raj-2025-posicion-academy-vegetariana\|Raj et al. — Posición Academy (vigente)]] | Posición oficial | 2025 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/melina-2016-posicion-academy-vegetariana\|Melina et al. — Posición Academy (ciclo vital)]] | Posición oficial | 2016 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/mariotti-gardner-2019-proteina-aminoacidos-vegetariana\|Mariotti y Gardner — Proteína y aminoácidos]] | Revisión | 2019 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/young-pellett-1994-proteinas-vegetales\|Young y Pellett — Proteínas vegetales]] | Revisión | 1994 | [[contraargumentos/y-la-proteina]] |
+| Estudio                                                                                                                             | Tipo                 | Año  | Usado en                           |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---- | ---------------------------------- |
+| [[evidencia/estudios/raj-2025-posicion-academy-vegetariana\|Raj et al. — Posición Academy (vigente)]]                               | Posición oficial     | 2025 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/melina-2016-posicion-academy-vegetariana\|Melina et al. — Posición Academy (ciclo vital)]]                     | Posición oficial     | 2016 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/mariotti-gardner-2019-proteina-aminoacidos-vegetariana\|Mariotti y Gardner — Proteína y aminoácidos]]          | Revisión             | 2019 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/young-pellett-1994-proteinas-vegetales\|Young y Pellett — Proteínas vegetales]]                                | Revisión             | 1994 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/bakaloudi-2021-adecuacion-dieta-vegana\|Bakaloudi et al. — Ingesta y adecuación de la dieta vegana (crítica)]] | Revisión sistemática | 2021 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/rolands-2025-adecuacion-proteica-dietas-vegetales\|Rolands et al. — Adecuación proteica y fuentes vegetales]] | Revisión sistemática | 2025 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/soh-2025-calidad-proteica-vegana\|Soh et al. — Calidad proteica (crítica)]] | Revisión narrativa | 2025 | [[contraargumentos/y-la-proteina]] |
-| [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra\|Lim et al. — Animal vs. vegetal, masa magra]] | Meta-análisis | 2021 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/rolands-2025-adecuacion-proteica-dietas-vegetales\|Rolands et al. — Adecuación proteica y fuentes vegetales]]  | Revisión sistemática | 2025 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/soh-2025-calidad-proteica-vegana\|Soh et al. — Calidad proteica (crítica)]]                                    | Revisión narrativa   | 2025 | [[contraargumentos/y-la-proteina]] |
+| [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra\|Lim et al. — Animal vs. vegetal, masa magra]]                  | Meta-análisis        | 2021 | [[contraargumentos/y-la-proteina]] |
 
 ### Nutrición — infancia y grupos vulnerables
 
-| Estudio | Tipo | Año | Usado en |
-|---|---|---|---|
-| [[evidencia/estudios/papadopoulou-2025-dieta-vegetariana-estricta-embarazo\|Papadopoulou et al. — Dieta vegetariana estricta y embarazo (crítica)]] | Meta-análisis | 2025 | [[contraargumentos/grupos-vulnerables]] |
-| [[evidencia/estudios/verduci-2025-espghan-dieta-vegana-infancia\|Verduci et al. — Posición ESPGHAN, dieta vegana infantil (crítica)]] | Posición oficial | 2025 | [[contraargumentos/grupos-vulnerables]] |
-| [[evidencia/estudios/brits-legrange-2026-dieta-vegana-salud-infantil\|Brits y le Grange — Dieta vegana y salud infantil]] | Revisión de alcance | 2026 | [[contraargumentos/grupos-vulnerables]] |
+| Estudio                                                                                                                                             | Tipo                | Año  | Usado en                                |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | --------------------------------------- |
+| [[evidencia/estudios/papadopoulou-2025-dieta-vegetariana-estricta-embarazo\|Papadopoulou et al. — Dieta vegetariana estricta y embarazo (crítica)]] | Meta-análisis       | 2025 | [[contraargumentos/grupos-vulnerables]] |
+| [[evidencia/estudios/verduci-2025-espghan-dieta-vegana-infancia\|Verduci et al. — Posición ESPGHAN, dieta vegana infantil (crítica)]]               | Posición oficial    | 2025 | [[contraargumentos/grupos-vulnerables]] |
+| [[evidencia/estudios/brits-legrange-2026-dieta-vegana-salud-infantil\|Brits y le Grange — Dieta vegana y salud infantil]]                           | Revisión de alcance | 2026 | [[contraargumentos/grupos-vulnerables]] |
 
 ### Salud — desenlaces y base evolutiva
 
@@ -60,12 +59,22 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 
 ### Nutrición — omega-3
 
-| Estudio | Tipo | Año | Usado en |
-|---|---|---|---|
-| [[evidencia/estudios/garcia-maldonado-2023-suplemento-dha-algas-veganos\|García-Maldonado et al. — Suplemento de DHA de algas en veganos]] | Ensayo clínico | 2023 | [[contraargumentos/omega3-cadena-larga]] |
-| [[evidencia/estudios/klein-2025-conversion-ala-dha-veganos\|Klein et al. — Conversión de ALA en n-3 (NuEva Study)]] | Ensayo clínico | 2025 | [[contraargumentos/omega3-cadena-larga]] |
-| [[evidencia/estudios/chamorro-2026-omega3-dietas-vegetarianas\|Chamorro et al. — Omega-3 en dietas vegetarianas (crítica)]] | Revisión sistemática | 2026 | [[contraargumentos/omega3-cadena-larga]] |
-| [[evidencia/estudios/calder-2025-recomendaciones-omega3\|Calder et al. — Recomendaciones mundiales de omega-3]] | Revisión | 2025 | [[contraargumentos/omega3-cadena-larga]] |
+| Estudio                                                                                                                                    | Tipo                 | Año  | Usado en                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | ---- | ---------------------------------------- |
+| [[evidencia/estudios/garcia-maldonado-2023-suplemento-dha-algas-veganos\|García-Maldonado et al. — Suplemento de DHA de algas en veganos]] | Ensayo clínico       | 2023 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/klein-2025-conversion-ala-dha-veganos\|Klein et al. — Conversión de ALA en n-3 (NuEva Study)]]                        | Ensayo clínico       | 2025 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/chamorro-2026-omega3-dietas-vegetarianas\|Chamorro et al. — Omega-3 en dietas vegetarianas (crítica)]]                | Revisión sistemática | 2026 | [[contraargumentos/omega3-cadena-larga]] |
+| [[evidencia/estudios/calder-2025-recomendaciones-omega3\|Calder et al. — Recomendaciones mundiales de omega-3]]                            | Revisión             | 2025 | [[contraargumentos/omega3-cadena-larga]] |
+
+### Ética — senciencia y conversión alimentaria
+
+| Estudio                                                                                                                                           | Tipo          | Año  | Usado en                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | ------------------------------------------------ |
+| [[evidencia/estudios/taiz-2019-plantas-no-conciencia-nocicepcion\|Taiz et al. — Las plantas ni poseen ni requieren conciencia]]                   | Revisión      | 2019 | [[contraargumentos/las-plantas-tambien-sienten]] |
+| [[evidencia/estudios/draguhn-2021-anestesicos-plantas-sin-dolor\|Draguhn et al. — Anestésicos y plantas: sin dolor, sin cerebro]]                 | Revisión      | 2021 | [[contraargumentos/las-plantas-tambien-sienten]] |
+| [[evidencia/estudios/segundo-ortin-calvo-2022-cognicion-conciencia-plantas\|Segundo-Ortín y Calvo — Conciencia y cognición en plantas (crítica)]] | Revisión      | 2022 | [[contraargumentos/las-plantas-tambien-sienten]] |
+| [[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal\|Cassidy et al. — De toneladas a personas alimentadas]]                   | Observacional | 2013 | [[contraargumentos/las-plantas-tambien-sienten]] |
+| [[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos\|Poore y Nemecek — Impacto ambiental de los alimentos]]                       | Meta-análisis | 2018 | [[contraargumentos/las-plantas-tambien-sienten]] |
 
 ## Criterios de inclusión
 
