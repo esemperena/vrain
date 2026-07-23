@@ -17,6 +17,7 @@ prof/
 !.claude/skills/
 .claude/skills/*
 !.claude/skills/evidencia-cientifica/
+!.claude/skills/vrain-tono-de-voz/
 
 # Entornos / editores varios
 .replit
