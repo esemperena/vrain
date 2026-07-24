@@ -122,6 +122,8 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | Estudio                                                                                                             | Tipo          | Año  | Usado en                        |
 | ------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | ------------------------------- |
 | [[evidencia/estudios/xu-2021-emisiones-alimentos-animales\|Xu et al. — Emisiones de alimentos animales vs vegetales]] | Observacional | 2021 | [[fundamentos/medioambiente]]   |
+| [[evidencia/estudios/ball-2025-alimentos-extincion-biodiversidad\|Ball et al. — Alimentos y riesgo de extinción de especies]] | Observacional | 2025 | [[fundamentos/medioambiente]]   |
+| [[evidencia/estudios/sachdeva-2023-huella-ambiental-alimentos\|Sachdeva et al. — Huella ambiental de alimentos (sur de Asia)]] | Revisión | 2023 | [[fundamentos/medioambiente]]   |
 
 *(También aplican a medioambiente [[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos|Poore y Nemecek (2018)]] y [[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal|Cassidy et al. (2013)]], listados arriba.)*
 

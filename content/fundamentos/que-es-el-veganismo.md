@@ -64,4 +64,9 @@ Ordenar bien la causa importa para entender el resto del sitio: primero está el
 
 ## Fuentes
 
-> Definición de referencia: la Vegan Society (Reino Unido), que acuñó el término en 1944 y mantiene la definición oficial. Pendiente de enlazar la cita textual y su fecha exacta como fuente formal. El resto es desarrollo conceptual que se apoya en [[fundamentos/etica-animal]].
+**Definición de referencia** — The Vegan Society (Reino Unido), que acuñó el término en **1944**. Su definición oficial, en la formulación vigente:
+
+> "El veganismo es una filosofía y forma de vida que busca excluir —en la medida de lo posible y practicable— todas las formas de explotación y crueldad hacia los animales para alimentación, vestido o cualquier otro fin."
+> — The Vegan Society, *Definition of veganism*
+
+Es la fuente que fija tanto el alcance ("cualquier otro fin", no solo comida) como la cláusula de "posible y practicable" desarrolladas arriba. El resto de la nota es desarrollo conceptual apoyado en [[fundamentos/etica-animal]].

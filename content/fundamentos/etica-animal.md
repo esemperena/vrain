@@ -50,6 +50,13 @@ Un fundamento sólido dice también dónde están sus bordes:
 
 ## Fuentes
 
+**Evidencia empírica**
+
 - [[evidencia/estudios/proctor-2013-senciencia-animal|Proctor et al. (2013)]] — revisión sistemática: amplio acuerdo científico sobre la senciencia animal, presupuesta incluso por la investigación biomédica.
 
-> El grueso de esta nota es **argumentación ético-filosófica** (especismo, casos marginales, distinción hecho-valor), que se sostiene por su lógica más que por una cita empírica. La premisa fáctica —los animales sienten— es la que va sourced. Pendiente: enlazar formulaciones clásicas del argumento (p. ej. Singer, Regan) como referencias.
+**Formulaciones clásicas del argumento** (obras de referencia, no estudios empíricos)
+
+- Peter Singer, *Animal Liberation* (1975) — introduce el término **especismo** en el debate contemporáneo y funda el enfoque utilitarista de la igual consideración de intereses.
+- Tom Regan, *The Case for Animal Rights* (1983) — desarrolla el enfoque de **derechos**: los animales son "sujetos-de-una-vida" con valor inherente, no meros recipientes de bienestar.
+
+> El grueso de esta nota es **argumentación ético-filosófica** (especismo, casos marginales, distinción hecho-valor), que se sostiene por su lógica más que por una cita empírica; las obras de Singer y Regan son sus formulaciones canónicas. La premisa fáctica —los animales sienten— va sostenida por [[evidencia/estudios/proctor-2013-senciencia-animal|Proctor et al.]].

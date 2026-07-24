@@ -4,7 +4,7 @@ tags: [tipo/fundamento, tema/medioambiente]
 tipo: fundamento
 estado: revision
 draft: false
-fuentes: ["[[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos]]", "[[evidencia/estudios/xu-2021-emisiones-alimentos-animales]]", "[[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal]]"]
+fuentes: ["[[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos]]", "[[evidencia/estudios/xu-2021-emisiones-alimentos-animales]]", "[[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal]]", "[[evidencia/estudios/ball-2025-alimentos-extincion-biodiversidad]]", "[[evidencia/estudios/sachdeva-2023-huella-ambiental-alimentos]]"]
 relacionadas: ["[[contraargumentos/monocultivos-deforestacion]]", "[[contraargumentos/muertes-cosecha]]"]
 created: 2026-07-22
 updated: 2026-07-24
@@ -28,11 +28,11 @@ La razón es la ineficiencia de la conversión animal: el **36 % de las caloría
 
 ## 3. Agua y contaminación
 
-La producción animal es también intensiva en **agua** (la que bebe el ganado más, sobre todo, la que riega sus cultivos de pienso) y una fuente principal de **eutrofización** —la contaminación de ríos y mares por nitrógeno y fósforo de purines y fertilizantes—. El mismo gran análisis de ciclo de vida ([[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos|Poore y Nemecek, 2018]]) sitúa a los productos animales como responsables desproporcionados de estos impactos por unidad de alimento. *(Las cifras exactas de huella hídrica y de eutrofización quedan pendientes de detallar con fuente propia; ver Fuentes.)*
+La producción animal es también intensiva en **agua** (la que bebe el ganado más, sobre todo, la que riega sus cultivos de pienso) y una fuente principal de **eutrofización** —la contaminación de ríos y mares por nitrógeno y fósforo de purines y fertilizantes—. El mismo gran análisis de ciclo de vida ([[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos|Poore y Nemecek, 2018]]) sitúa a los productos animales como responsables desproporcionados de estos impactos por unidad de alimento, y una revisión de alcance del sur de Asia ([[evidencia/estudios/sachdeva-2023-huella-ambiental-alimentos|Sachdeva et al., 2023]]) documenta que los productos ganaderos —junto a cultivos muy intensivos en agua como el arroz— concentran buena parte de la huella hídrica y de las emisiones de nitrógeno y fósforo.
 
 ## 4. Biodiversidad
 
-La pérdida de biodiversidad se sigue de lo anterior: si la ganadería ocupa la mayor parte de la tierra agrícola y empuja la frontera sobre bosques y sabanas, es también uno de los principales impulsores de la **destrucción de hábitats** y, con ella, de la extinción de especies silvestres. Menos tierra dedicada a producir comida —lo que permite una dieta vegetal— es más tierra disponible para la vida salvaje.
+La pérdida de biodiversidad se sigue de lo anterior: la **degradación de hábitat impulsada por la agricultura es la mayor amenaza para la biodiversidad global**, y el impacto de producir cada alimento sobre el **riesgo de extinción de especies** varía por más de un orden de magnitud, siendo los **productos animales y los cultivos tropicales sistemáticamente los más dañinos** frente a los alimentos vegetales básicos ([[evidencia/estudios/ball-2025-alimentos-extincion-biodiversidad|Ball et al., 2025]]). Menos tierra dedicada a producir comida —lo que permite una dieta vegetal— es más tierra disponible para la vida salvaje.
 
 ## Dónde conviene no exagerar
 
@@ -49,5 +49,7 @@ Verificadas; ninguna retractada.
 - [[evidencia/estudios/xu-2021-emisiones-alimentos-animales|Xu et al. (2021)]] — *Nature Food*: las emisiones de los alimentos animales duplican las de los vegetales (≈17,3 Gt CO₂eq totales).
 - [[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos|Poore y Nemecek (2018)]] — *Science*, 570 estudios de ciclo de vida: 18 % de calorías con 83 % de la tierra; −75 % de uso de tierra sin producto animal; impactos de agua y eutrofización.
 - [[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal|Cassidy et al. (2013)]] — 36 % de calorías de cultivo a animales, 12 % de retorno.
+- [[evidencia/estudios/ball-2025-alimentos-extincion-biodiversidad|Ball et al. (2025)]] — *Nature Food*: la agricultura es la mayor amenaza a la biodiversidad; los productos animales impactan el riesgo de extinción mucho más que los vegetales básicos.
+- [[evidencia/estudios/sachdeva-2023-huella-ambiental-alimentos|Sachdeva et al. (2023)]] — revisión de alcance (sur de Asia): huella hídrica y emisiones de N y P concentradas en productos ganaderos (y arroz).
 
-> Pendiente de fuente citable propia: cifras concretas de **huella hídrica** y de **eutrofización** por tipo de alimento, y datos específicos de **ganadería como impulsor de pérdida de biodiversidad**. Los tramos de emisiones, tierra y conversión ya están sostenidos.
+> Emisiones, tierra, conversión, biodiversidad y —con matiz regional— agua/eutrofización quedan ya sostenidos. Pendiente de una **fuente global dedicada de huella hídrica** por alimento (la literatura de *water footprint*), para no depender solo de un dato regional en ese punto.
