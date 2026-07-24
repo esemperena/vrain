@@ -83,6 +83,25 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | [[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal\|Cassidy et al. — De toneladas a personas alimentadas]]                   | Observacional | 2013 | [[contraargumentos/las-plantas-tambien-sienten]] |
 | [[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos\|Poore y Nemecek — Impacto ambiental de los alimentos]]                       | Meta-análisis | 2018 | [[contraargumentos/las-plantas-tambien-sienten]] |
 
+### Nutrición — nutrientes específicos de la carne
+
+| Estudio                                                                                                                       | Tipo     | Año  | Usado en                                              |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------- | ---- | ----------------------------------------------------- |
+| [[evidencia/estudios/demarquoy-2025-equivalencia-nutrientes-carne\|Demarquoy — Equivalencia nutricional de la carne (crítica)]] | Revisión | 2025 | [[contraargumentos/necesitamos-carne-especificamente]] |
+
+### Salud — dieta carnívora
+
+| Estudio                                                                                                        | Tipo               | Año  | Usado en                                  |
+| ------------------------------------------------------------------------------------------------------------- | ------------------ | ---- | ----------------------------------------- |
+| [[evidencia/estudios/lietz-2026-dieta-carnivora-scoping\|Lietz et al. — Dieta carnívora, revisión de alcance (crítica)]] | Revisión de alcance | 2026 | [[contraargumentos/carnivoro-cura-todo]]  |
+
+### Salud mental
+
+| Estudio                                                                                                                          | Tipo          | Año  | Usado en                                     |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | -------------------------------------------- |
+| [[evidencia/estudios/iguacel-2021-salud-mental-vegetariana\|Iguacel et al. — Salud mental y cognitiva vegetariana (crítica)]]    | Meta-análisis | 2021 | [[contraargumentos/veganos-culpa-obsesion]]  |
+| [[evidencia/estudios/diaz-goni-2025-ortorexia-dietas-vegetarianas\|Díaz-Goñi et al. — Ortorexia y dietas vegetarianas (crítica)]] | Meta-análisis | 2025 | [[contraargumentos/veganos-culpa-obsesion]]  |
+
 ## Criterios de inclusión
 
 - Prioridad a **meta-análisis, revisiones sistemáticas y posiciones oficiales** de sociedades científicas.

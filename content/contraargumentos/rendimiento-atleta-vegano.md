@@ -2,9 +2,9 @@
 title: "«Los veganos no pueden ser atletas o ser fuertes»"
 tags: [tipo/contraargumento, tema/salud, tema/rendimiento]
 tipo: contraargumento
-estado: semilla
+estado: revision
 draft: false
-falacia: [generalizacion-apresurada, sobregeneralizacion]
+falacia: [generalizacion-apresurada]
 argumento: [cientifico, nutricional]
 aliases: ["atletas veganos", "fuerza veganismo", "músculo vegano", "rendimiento atlético vegano"]
 objecion: "Sin carne no se puede tener suficiente proteína ni energía para ser atleta o desarrollar músculo."
@@ -13,7 +13,7 @@ description: "Sin diferencias de fuerza entre proteína animal y vegetal en meta
 fuentes: ["[[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra]]"]
 relacionadas: ["[[fundamentos/salud]]", "[[y-la-proteina]]"]
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 order: 34
 ---
 
