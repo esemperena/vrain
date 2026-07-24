@@ -129,6 +129,7 @@ La estructura ya está fijada en `content/meta/metodologia.md` y `CONTRIBUTING.m
 Reglas de higiene:
 
 - **Una nota, una objeción.** Si estás refutando dos cosas, son dos notas enlazadas. La densidad mata la claridad.
+- **No rebatas argumentos débiles que nadie ha hecho — y menos los de tu propio lado.** La nota hace la versión *fuerte* del caso; no es un catálogo de los malos argumentos. Montar un apartado del tipo "cuidado con este argumento tentador pero flojo" —p. ej. enumerar atletas veganos famosos para "demostrar" que se rinde sin carne— le da espacio y visibilidad a un marco que no debería estar en la nota, y se lo planta en la cabeza a quien no lo traía. Si un argumento es malo, no se usa: no se levanta para tumbarlo, ni siquiera para avisar de que es malo. Como mucho, y una sola vez, se declara el principio en una frase ("este sitio no usa razonamientos anecdóticos: un caso individual no prueba causalidad"), sin el paseo explicativo ni las salvedades sobre nombres concretos. Cosa distinta es refutar una anécdota cuando *es* la objeción del otro lado ("la dieta carnívora me curó"): ahí llamarla anecdótica es la refutación misma, no un desvío.
 - **Nombra la falacia en el frontmatter, explícala en el cuerpo.** El campo `falacia` es metadato. En el texto, "eso es una falacia naturalista" suena a corrección de examen y cierra la conversación; explicar por qué "natural" no implica "correcto" la abre. Usa siempre el vocabulario controlado de `content/meta/falacias.md`; si necesitas una etiqueta nueva, defínela allí primero.
 - **No cerramos, abrimos.** Enlaza a las notas relacionadas y declara el pendiente. Una nota que se presenta como palabra final envejece peor que una que dice dónde está su propio límite.
 
@@ -194,6 +195,7 @@ Cuidado también con el **"solo"** y el **"simplemente"** ("simplemente come leg
 - ¿He citado la fuente exactamente, sin estirarla ni encogerla?
 - ¿Hay al menos una fuente crítica, y una sección de lo que el argumento acierta?
 - ¿La refutación va contra la mejor versión de la objeción, no contra la más fácil?
+- ¿Dedico espacio a rebatir un argumento flojo que nadie ha hecho —o uno débil de mi propio lado— en vez de hacer la versión fuerte del caso?
 - ¿Refuta el argumento sin dejar mal a la persona? ¿Hay culpa implícita en alguna frase?
 - ¿Aparece miedo en algún sitio — quimiofobia o gore?
 - ¿La `respuesta_corta` es literalmente verdadera fuera de contexto, sin ironía?
