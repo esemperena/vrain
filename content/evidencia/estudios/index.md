@@ -102,6 +102,26 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | [[evidencia/estudios/iguacel-2021-salud-mental-vegetariana\|Iguacel et al. — Salud mental y cognitiva vegetariana (crítica)]]    | Meta-análisis | 2021 | [[contraargumentos/veganos-culpa-obsesion]]  |
 | [[evidencia/estudios/diaz-goni-2025-ortorexia-dietas-vegetarianas\|Díaz-Goñi et al. — Ortorexia y dietas vegetarianas (crítica)]] | Meta-análisis | 2025 | [[contraargumentos/veganos-culpa-obsesion]]  |
 
+### Ética — senciencia animal
+
+| Estudio                                                                                                     | Tipo     | Año  | Usado en                          |
+| ----------------------------------------------------------------------------------------------------------- | -------- | ---- | --------------------------------- |
+| [[evidencia/estudios/proctor-2013-senciencia-animal\|Proctor et al. — Búsqueda de la senciencia animal]]     | Revisión | 2013 | [[fundamentos/etica-animal]]      |
+
+### Medioambiente
+
+| Estudio                                                                                                             | Tipo          | Año  | Usado en                        |
+| ------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | ------------------------------- |
+| [[evidencia/estudios/xu-2021-emisiones-alimentos-animales\|Xu et al. — Emisiones de alimentos animales vs vegetales]] | Observacional | 2021 | [[fundamentos/medioambiente]]   |
+
+*(También aplican a medioambiente [[evidencia/estudios/poore-nemecek-2018-impacto-ambiental-alimentos|Poore y Nemecek (2018)]] y [[evidencia/estudios/cassidy-2013-calorias-cultivos-alimentacion-animal|Cassidy et al. (2013)]], listados arriba.)*
+
+### Justicia social y salud pública
+
+| Estudio                                                                                                                | Tipo     | Año  | Usado en                        |
+| ---------------------------------------------------------------------------------------------------------------------- | -------- | ---- | ------------------------------- |
+| [[evidencia/estudios/bartlett-2022-ganaderia-riesgo-zoonosis\|Bartlett et al. — Ganadería y riesgo de zoonosis (crítica)]] | Revisión | 2022 | [[fundamentos/justicia-social]] |
+
 ## Criterios de inclusión
 
 - Prioridad a **meta-análisis, revisiones sistemáticas y posiciones oficiales** de sociedades científicas.
