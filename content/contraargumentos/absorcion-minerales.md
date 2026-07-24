@@ -10,7 +10,7 @@ aliases: ["fitatos bloquean absorción", "zinc fitatos", "hierro fitatos", "anti
 objecion: "Las plantas contienen fitatos que reducen la absorción de hierro y zinc. Por lo tanto, los veganos sufrirán deficiencias."
 respuesta_corta: "Es cierto que las reservas de hierro (ferritina) y el zinc son algo más bajos en dietas vegetarianas, pero menor reserva no es deficiencia clínica: el cuerpo adapta la absorción, la preparación (remojo, fermentación, vitamina C) la mejora, y el fitato está también en alimentos que comen los omnívoros."
 description: "Las reservas de hierro y zinc son algo más bajas en veganos, pero eso no equivale a deficiencia clínica: la absorción se adapta y la preparación la mejora."
-fuentes: ["[[evidencia/estudios/haider-2018-hierro-vegetarianos]]", "[[evidencia/estudios/foster-2013-zinc-vegetarianos]]", "[[evidencia/estudios/bakaloudi-2021-adecuacion-dieta-vegana]]"]
+fuentes: ["[[evidencia/estudios/haider-2018-hierro-vegetarianos]]", "[[evidencia/estudios/foster-2013-zinc-vegetarianos]]", "[[evidencia/estudios/punetha-2026-biodisponibilidad-hierro]]", "[[evidencia/estudios/bakaloudi-2021-adecuacion-dieta-vegana]]"]
 relacionadas: ["[[fundamentos/salud]]", "[[y-la-proteina]]", "[[deficiencias-multiples]]"]
 created: 2026-07-23
 updated: 2026-07-24
@@ -47,7 +47,7 @@ La absorción de hierro y zinc no es una tasa fija: **se regula según las reser
 
 ### 4. La preparación cambia mucho la ecuación
 
-El contenido de fitato no es fijo: baja de forma marcada con técnicas de cocina de toda la vida —**remojo, germinado, fermentación** (el pan de masa madre, el tempeh)—, y la absorción del hierro no hemo se multiplica al combinarlo con **vitamina C** en la misma comida (legumbres con pimiento, con limón, con tomate). Es decir, el vegano no está condenado a la cifra de absorción del peor escenario; con preparación normal, absorbe bastante más. *(La cuantificación exacta de cuánto reduce cada técnica el fitato queda pendiente de fuente citable; ver Fuentes.)*
+El contenido de fitato no es fijo: baja de forma marcada con técnicas de cocina de toda la vida —**remojo, germinado, fermentación** (el pan de masa madre, el tempeh)—, y la absorción del hierro no hemo **no es una tasa fija**: la modulan componentes de la propia comida, que actúan como inhibidores (fitatos, polifenoles) o como **potenciadores**, siendo la **vitamina C** el ejemplo clásico ([[evidencia/estudios/punetha-2026-biodisponibilidad-hierro|Punetha et al., 2026]]) — de ahí que combinar legumbres con pimiento, limón o tomate en la misma comida mejore lo que se absorbe. Es decir, el vegano no está condenado a la cifra de absorción del peor escenario; con preparación normal, absorbe bastante más.
 
 ### 5. El fitato no es un problema "vegano"
 
@@ -73,6 +73,7 @@ Meta-análisis verificados contra CrossRef y OpenAlex; ninguno retractado.
 
 - [[evidencia/estudios/haider-2018-hierro-vegetarianos|Haider et al. (2018)]] — meta-análisis *(crítico)*: ferritina −29,71 µg/L en vegetarianos; reserva de hierro más baja pero medida como marcador, no como anemia.
 - [[evidencia/estudios/foster-2013-zinc-vegetarianos|Foster et al. (2013)]] — meta-análisis *(crítico)*: ingesta de zinc −0,88 mg/día y zinc sérico −0,93 µmol/L; adaptación homeostática de la absorción.
+- [[evidencia/estudios/punetha-2026-biodisponibilidad-hierro|Punetha et al. (2026)]] — revisión de biodisponibilidad del hierro: la absorción del hierro no hemo la modulan inhibidores (fitatos) y potenciadores (vitamina C); optimizar la matriz alimentaria la mejora.
 - [[evidencia/estudios/bakaloudi-2021-adecuacion-dieta-vegana|Bakaloudi et al. (2021)]] — revisión sistemática, 48 estudios: contexto de micronutrientes con ingesta baja en dieta vegana, con la advertencia de los autores de que ingesta baja no equivale a problema de salud.
 
-> Pendiente de fuente citable: cuantificación de la **reducción de fitato por técnica** (remojo, germinado, fermentación) y del **efecto de la vitamina C** sobre la absorción del hierro no hemo, y datos de **tasas de anemia** ferropénica comparadas (vegetarianos vs. omnívoros) para cerrar el punto del desenlace. Relacionado: [[deficiencias-multiples]].
+> Pendiente de fuente citable: la **cuantificación exacta de la reducción de fitato por técnica** (remojo, germinado, fermentación) y datos de **tasas de anemia** ferropénica comparadas (vegetarianos vs. omnívoros) para cerrar del todo el punto del desenlace. El efecto de la vitamina C como potenciador ya queda sostenido por [[evidencia/estudios/punetha-2026-biodisponibilidad-hierro|Punetha]]. Relacionado: [[deficiencias-multiples]].

@@ -10,7 +10,7 @@ aliases: ["tracto digestivo carnívoro", "pepsina para carne", "enzimas digestiv
 objecion: "Tenemos un tracto digestivo corto (como carnívoros), pepsina para digerir proteínas animales y lipasas para grasas animales. Esto prueba que somos carnívoros."
 respuesta_corta: "La fisiología humana es de omnívoro, no de carnívoro: tenemos amilasa salival, molares de triturar y un tracto de proporciones intermedias, no el de un depredador. Pero, sobre todo, poder digerir carne no implica deber comerla: la anatomía dice qué podemos comer, no qué debemos."
 description: "La anatomía humana es omnívora, no carnívora; y en cualquier caso, poder digerir carne no implica deber comerla."
-fuentes: []
+fuentes: ["[[evidencia/estudios/perry-2007-amilasa-almidon-evolucion]]"]
 relacionadas: ["[[fundamentos/etica-animal]]", "[[comer-carne-es-natural]]", "[[dientes-caninos]]", "[[humanos-ancestrales-carnivoros]]", "[[fundamentos/salud]]", "[[y-la-proteina]]"]
 created: 2026-07-23
 updated: 2026-07-24
@@ -34,7 +34,7 @@ Fallan dos cosas a la vez. Como dato, es falso: la fisiología humana es de **om
 
 Si nos quedamos en la biología, la etiqueta correcta no es "carnívoro": es **omnívoro facultativo**, un cuerpo que puede tirar de casi todo. Los rasgos que se citan no apuntan a depredador:
 
-- **Amilasa salival.** Empezamos a digerir almidón ya en la boca — algo propio de quien come muchos vegetales, no de un carnívoro estricto, que no la segrega en la saliva.
+- **Amilasa salival.** Empezamos a digerir almidón ya en la boca — algo propio de quien come muchos vegetales, no de un carnívoro estricto, que no la segrega en la saliva. Y no es un rasgo menor: el gen de la amilasa salival (**AMY1**) ha estado bajo **selección positiva**, con más copias —y más enzima— en las poblaciones de dieta rica en almidón ([[evidencia/estudios/perry-2007-amilasa-almidon-evolucion|Perry et al., 2007]]). El genoma humano lleva la huella de adaptarse a comer plantas, no carne.
 - **Molares planos y mandíbula que muele.** La dentadura y su movimiento lateral están hechos para triturar, no para desgarrar y tragar como un felino.
 - **Tracto de proporciones intermedias.** No tenemos el intestino corto y simple de un carnívoro obligado ni el gran aparato de fermentación de un herbívoro estricto: un término medio, coherente con una dieta mixta.
 - **Pepsina y lipasas no prueban nada.** Digieren proteína y grasa de cualquier origen, también vegetal, y las tienen igualmente animales que comen sobre todo plantas. No son un sello "carnívoro".
@@ -66,4 +66,6 @@ Toda esta discusión anatómica es una variable intermedia. El desenlace que cue
 
 ## Fuentes
 
-> Nota semilla. El núcleo —capacidad no implica deber— es conceptual y se sostiene solo; la adecuación de la dieta vegetal está sostenida en [[fundamentos/salud]] y [[y-la-proteina]]. Pendiente de fuente citable el tramo de **anatomía comparada** (amilasa salival y número de copias de AMY1, morfología dental, proporciones del tracto digestivo humano frente a carnívoros y herbívoros). Hasta tenerla, esos rasgos se enuncian en términos generales, sin cifras.
+- [[evidencia/estudios/perry-2007-amilasa-almidon-evolucion|Perry et al. (2007)]] — *Nature Genetics*: el gen de la amilasa salival (AMY1) está bajo selección positiva, con más copias en poblaciones de dieta alta en almidón; huella genética de adaptación a comer plantas.
+
+> El núcleo —capacidad no implica deber— es conceptual y se sostiene solo; la adecuación de la dieta vegetal está sostenida en [[fundamentos/salud]] y [[y-la-proteina]]; y la adaptación al almidón, por [[evidencia/estudios/perry-2007-amilasa-almidon-evolucion|Perry et al.]]. Pendiente de fuente citable propia el resto del tramo de **anatomía comparada** (morfología dental y proporciones del tracto digestivo humano frente a carnívoros y herbívoros), que por ahora se enuncia en términos generales, sin cifras.

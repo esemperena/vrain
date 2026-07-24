@@ -10,7 +10,7 @@ aliases: ["caninos humanos carne", "colmillos para desgarrar", "dientes diseñad
 objecion: "Los humanos tenemos dientes caninos; estos están diseñados para rasgar carne, lo que prueba que somos carnívoros."
 respuesta_corta: "Los caninos no indican dieta carnívora: algunos herbívoros los tienen enormes (hipopótamo, gorila) y los nuestros son pequeños y romos. Y aunque lo indicaran, poder comer carne no implica deber comerla."
 description: "Los caninos no prueban carnivorismo (los tienen herbívoros); y en cualquier caso, poder no implica deber."
-fuentes: ["[[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana]]"]
+fuentes: ["[[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana]]", "[[evidencia/estudios/perry-2007-amilasa-almidon-evolucion]]"]
 relacionadas: ["[[fundamentos/etica-animal]]", "[[comer-carne-es-natural]]", "[[digestión-carnívora]]", "[[humanos-ancestrales-carnivoros]]"]
 created: 2026-07-23
 updated: 2026-07-24
@@ -54,5 +54,6 @@ Concedamos lo máximo, que no es el caso: supongamos que los caninos fueran una 
 ## Fuentes
 
 - [[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana|Andrews y Johnson (2020)]] — revisión: linaje humano omnívoro flexible y de raíz frugívora, no carnívoro; la anatomía apunta a dieta mixta, no a especialización en carne.
+- [[evidencia/estudios/perry-2007-amilasa-almidon-evolucion|Perry et al. (2007)]] — *Nature Genetics*: selección positiva sobre el gen de la amilasa salival (AMY1) en poblaciones de dieta alta en almidón; evidencia genética de adaptación a comer plantas, no carne.
 
-> Pendiente de fuente citable específica de **anatomía dental comparada** (tamaño relativo del canino y morfología molar en humanos, herbívoros con caninos grandes y carnívoros). El núcleo —el canino no indica carnivorismo, y capacidad no implica deber— se sostiene con la fuente evolutiva y con la lógica de [[digestión-carnívora]].
+> Pendiente de fuente citable específica de **anatomía dental comparada** (tamaño relativo del canino y morfología molar en humanos, herbívoros con caninos grandes y carnívoros). El núcleo —el canino no indica carnivorismo, y capacidad no implica deber— se sostiene con las fuentes evolutivas ([[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana|Andrews y Johnson]], [[evidencia/estudios/perry-2007-amilasa-almidon-evolucion|Perry]]) y con la lógica de [[digestión-carnívora]].

@@ -48,6 +48,7 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | -------------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | ----------------------------------------- |
 | [[evidencia/estudios/haider-2018-hierro-vegetarianos\|Haider et al. — Estado de hierro en vegetarianos (crítica)]]         | Meta-análisis | 2018 | [[contraargumentos/absorcion-minerales]]  |
 | [[evidencia/estudios/foster-2013-zinc-vegetarianos\|Foster et al. — Estado de zinc en dietas vegetarianas (crítica)]]      | Meta-análisis | 2013 | [[contraargumentos/absorcion-minerales]]  |
+| [[evidencia/estudios/punetha-2026-biodisponibilidad-hierro\|Punetha et al. — Biodisponibilidad del hierro y matriz alimentaria]] | Revisión | 2026 | [[contraargumentos/absorcion-minerales]] |
 
 ### Nutrición — infancia y grupos vulnerables
 
@@ -63,6 +64,14 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 |---|---|---|---|
 | [[evidencia/estudios/dinu-2017-dietas-vegetarianas-multiples-desenlaces\|Dinu et al. — Dietas vegetarianas y múltiples desenlaces (crítica)]] | Revisión sistemática | 2017 | [[contraargumentos/comer-carne-es-natural]] |
 | [[evidencia/estudios/andrews-johnson-2020-base-evolutiva-dieta-humana\|Andrews y Johnson — Base evolutiva de la dieta humana]] | Revisión | 2020 | [[contraargumentos/comer-carne-es-natural]] |
+| [[evidencia/estudios/perry-2007-amilasa-almidon-evolucion\|Perry et al. — Amilasa (AMY1) y adaptación al almidón]] | Observacional | 2007 | [[contraargumentos/digestión-carnívora]] |
+
+### Salud — rendimiento deportivo
+
+| Estudio | Tipo | Año | Usado en |
+|---|---|---|---|
+| [[evidencia/estudios/presti-2024-dietas-vegetales-rendimiento\|Presti et al. — Dietas vegetales y rendimiento deportivo]] | Revisión sistemática | 2024 | [[contraargumentos/rendimiento-atleta-vegano]] |
+| [[evidencia/estudios/kaviani-2020-creatina-vegetarianos\|Kaviani et al. — Creatina en vegetarianos]] | Revisión sistemática | 2020 | [[contraargumentos/rendimiento-atleta-vegano]] |
 
 ### Nutrición — omega-3
 

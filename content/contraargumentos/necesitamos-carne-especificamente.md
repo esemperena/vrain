@@ -10,7 +10,7 @@ aliases: ["bioavailabilidad carne", "nutrientes únicos carne", "carne insustitu
 objecion: "La carne contiene nutrientes únicos en forma única que el cuerpo absorbe mejor. No se puede reemplazar con plantas."
 respuesta_corta: "Es cierto que la carne parte con ventaja de biodisponibilidad en algunos nutrientes (hierro hemo, B12 preformada) y aporta compuestos como creatina o taurina. Pero lo que el cuerpo necesita es el nutriente, no la carne: los esenciales se cubren por otra vía (suplemento, algas, vitamina C) y los 'condicionalmente esenciales' el propio cuerpo los sintetiza. Ventaja no es insustituibilidad."
 description: "La carne tiene ventaja de biodisponibilidad en algunos nutrientes, pero el cuerpo necesita el nutriente, no la carne."
-fuentes: ["[[evidencia/estudios/demarquoy-2025-equivalencia-nutrientes-carne]]", "[[evidencia/estudios/haider-2018-hierro-vegetarianos]]"]
+fuentes: ["[[evidencia/estudios/demarquoy-2025-equivalencia-nutrientes-carne]]", "[[evidencia/estudios/kaviani-2020-creatina-vegetarianos]]", "[[evidencia/estudios/haider-2018-hierro-vegetarianos]]"]
 relacionadas: ["[[fundamentos/salud]]", "[[y-la-proteina]]", "[[absorcion-minerales]]", "[[deficiencia-b12]]", "[[omega3-cadena-larga]]"]
 created: 2026-07-23
 updated: 2026-07-24
@@ -42,7 +42,7 @@ En todos, el nutriente llega; cambia el vehículo, no el resultado.
 
 ### 3. "Condicionalmente esencial" no significa "hay que comerlo"
 
-Aquí está la clave del punto de la creatina y la taurina, y conviene entender el término. Que un compuesto sea **condicionalmente esencial** significa justamente que **el cuerpo lo fabrica** —creatina y carnitina a partir de aminoácidos, taurina a partir de la cisteína— y que solo en situaciones concretas la síntesis propia podría no bastar. No son nutrientes de ingesta obligatoria. Los veganos tienen reservas de creatina algo más bajas, pero **no una enfermedad por deficiencia**; y quien busque el pequeño extra (rendimiento, quizá cognición) puede tomar **creatina sintética, que es vegana**. "El cuerpo lo hace solo, y además se puede suplementar" está muy lejos de "necesitamos carne".
+Aquí está la clave del punto de la creatina y la taurina, y conviene entender el término. Que un compuesto sea **condicionalmente esencial** significa justamente que **el cuerpo lo fabrica** —creatina y carnitina a partir de aminoácidos, taurina a partir de la cisteína— y que solo en situaciones concretas la síntesis propia podría no bastar. No son nutrientes de ingesta obligatoria. Es cierto que los veganos tienen **reservas de creatina más bajas** —la creatina está en la carne—, pero eso **no es una enfermedad por deficiencia**, y una revisión sistemática sobre suplementación de creatina en vegetarianos ([[evidencia/estudios/kaviani-2020-creatina-vegetarianos|Kaviani et al., 2020]]) muestra que el suplemento —monohidrato **sintético, apto para veganos**— restaura y hasta **supera** los niveles de los omnívoros, con beneficio en masa magra, fuerza y resistencia. "El cuerpo lo hace solo, y además se puede suplementar sin carne" está muy lejos de "necesitamos carne".
 
 ### 4. Sube al desenlace: la biodisponibilidad es una variable intermedia
 
@@ -71,6 +71,7 @@ Lo que la objeción capta de verdad es que la carne es un **paquete conveniente*
 Verificadas; ninguna retractada.
 
 - [[evidencia/estudios/demarquoy-2025-equivalencia-nutrientes-carne|Demarquoy (2025)]] — revisión *(crítica)* en *Nutrients*: la carne aporta hierro hemo, B12 preformada, creatina, taurina y omega-3 con mejor biodisponibilidad; los análogos requieren fortificación. Sostiene la parte concedida.
+- [[evidencia/estudios/kaviani-2020-creatina-vegetarianos|Kaviani et al. (2020)]] — revisión sistemática: los vegetarianos parten de reservas de creatina más bajas, y el suplemento (sintético, vegano) las restaura y supera, con beneficio funcional. Cierra el punto de creatina.
 - [[evidencia/estudios/haider-2018-hierro-vegetarianos|Haider et al. (2018)]] — meta-análisis: contexto del estatus de hierro y del papel del hierro hemo/no hemo.
 
-> El resto del argumento se apoya en notas ya sourced del vault: [[deficiencia-b12]], [[omega3-cadena-larga]], [[absorcion-minerales]]. Pendiente de fuente citable propia: datos de **reservas de creatina en veganos** y de **suplementación de creatina vegana** (rendimiento/cognición), para cerrar el punto 3 con cita específica.
+> El resto del argumento se apoya en notas ya sourced del vault: [[deficiencia-b12]], [[omega3-cadena-larga]], [[absorcion-minerales]]. El punto de la creatina queda sostenido por [[evidencia/estudios/kaviani-2020-creatina-vegetarianos|Kaviani et al. (2020)]].

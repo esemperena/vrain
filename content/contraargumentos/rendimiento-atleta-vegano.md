@@ -10,7 +10,7 @@ aliases: ["atletas veganos", "fuerza veganismo", "músculo vegano", "rendimiento
 objecion: "Sin carne no se puede tener suficiente proteína ni energía para ser atleta o desarrollar músculo."
 respuesta_corta: "Un meta-análisis de 16 ensayos controlados no encuentra diferencias de fuerza entre proteína animal y vegetal. Con proteína y calorías suficientes se desarrolla musculatura sin carne."
 description: "Sin diferencias de fuerza entre proteína animal y vegetal en meta-análisis de 16 ensayos controlados."
-fuentes: ["[[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra]]"]
+fuentes: ["[[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra]]", "[[evidencia/estudios/presti-2024-dietas-vegetales-rendimiento]]", "[[evidencia/estudios/kaviani-2020-creatina-vegetarianos]]"]
 relacionadas: ["[[fundamentos/salud]]", "[[y-la-proteina]]"]
 created: 2026-07-23
 updated: 2026-07-24
@@ -33,9 +33,12 @@ La objeción pregunta por un desenlace concreto —fuerza y músculo—, y ahí 
 - **Qué compara exactamente.** Lim mide **suplementos proteicos aislados, no dietas completas**, y muchos ensayos usan soja como representante de "vegetal". Es la mejor evidencia disponible sobre proteína animal frente a vegetal en músculo; no es una comparación entre comer vegano y comer carne.
 - **Por qué el origen no cambia el resultado.** El músculo no distingue la procedencia de la proteína: necesita aminoácidos indispensables —todos presentes en fuentes vegetales— y estímulo de entrenamiento. Ver [[contraargumentos/y-la-proteina]].
 - **Lo que sí exige es planificar.** Ganar masa muscular pide superávit calórico y ~1,6-2,0 g de proteína por kg de peso. Es alcanzable con dieta vegana, pero hay que planificarlo: es el patrón con menor margen proteico. Y el arreglo no es añadir carne, es asegurar legumbres, soja y calorías suficientes.
+- **Y en rendimiento, no solo en laboratorio.** Más allá de la composición corporal, una revisión sistemática de dietas vegetales y desempeño deportivo ([[evidencia/estudios/presti-2024-dietas-vegetales-rendimiento|Presti et al., 2024]]) concluye que seguir una dieta basada en plantas **no perjudica** el rendimiento en adultos sanos. Y donde el punto flojo sería la creatina —más baja en veganos—, el suplemento sintético (vegano) la restaura y hasta supera los niveles omnívoros, con beneficio funcional ([[evidencia/estudios/kaviani-2020-creatina-vegetarianos|Kaviani et al., 2020]]).
 
 ## Fuentes
 
 - [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra|Lim et al. (2021)]] — meta-análisis de 16 ECA; sin diferencias en fuerza, ventaja pequeña de proteína animal en % de masa magra.
+- [[evidencia/estudios/presti-2024-dietas-vegetales-rendimiento|Presti et al. (2024)]] — revisión sistemática: la dieta basada en plantas no perjudica el rendimiento deportivo ni la composición corporal en adultos sanos.
+- [[evidencia/estudios/kaviani-2020-creatina-vegetarianos|Kaviani et al. (2020)]] — revisión sistemática: la creatina (sintética, vegana) restaura y supera las reservas más bajas de los vegetarianos, con beneficio en fuerza y masa magra.
 
-> Nota semilla — pendiente: evidencia específica sobre rendimiento deportivo (no solo composición corporal) en atletas veganos, y datos de requerimientos proteicos en deporte de fuerza.
+> Pendiente de fuente citable: datos específicos de **requerimientos proteicos en deporte de fuerza** en atletas veganos (no solo composición y rendimiento general). El grueso —fuerza sin diferencias, rendimiento no comprometido y creatina resuelta— ya está sostenido.
