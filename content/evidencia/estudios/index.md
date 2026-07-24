@@ -42,6 +42,13 @@ relacionadas: ["[[fundamentos/medioambiente]]"]
 | [[evidencia/estudios/soh-2025-calidad-proteica-vegana\|Soh et al. — Calidad proteica (crítica)]]                                    | Revisión narrativa   | 2025 | [[contraargumentos/y-la-proteina]] |
 | [[evidencia/estudios/lim-2021-proteina-animal-vs-vegetal-masa-magra\|Lim et al. — Animal vs. vegetal, masa magra]]                  | Meta-análisis        | 2021 | [[contraargumentos/y-la-proteina]] |
 
+### Nutrición — hierro, zinc y minerales
+
+| Estudio                                                                                                                    | Tipo          | Año  | Usado en                                  |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------- | ---- | ----------------------------------------- |
+| [[evidencia/estudios/haider-2018-hierro-vegetarianos\|Haider et al. — Estado de hierro en vegetarianos (crítica)]]         | Meta-análisis | 2018 | [[contraargumentos/absorcion-minerales]]  |
+| [[evidencia/estudios/foster-2013-zinc-vegetarianos\|Foster et al. — Estado de zinc en dietas vegetarianas (crítica)]]      | Meta-análisis | 2013 | [[contraargumentos/absorcion-minerales]]  |
+
 ### Nutrición — infancia y grupos vulnerables
 
 | Estudio                                                                                                                                             | Tipo                | Año  | Usado en                                |
